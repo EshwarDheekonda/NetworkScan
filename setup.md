@@ -13,11 +13,8 @@ pip install py2neo
 ```
 ### Neo4j Setup
 ```bash
-docker run --name neo4j \
-  -p7474:7474 -p7687:7687 \
-  -d \
-  -e NEO4J_AUTH=<username>/<password>\
-  neo4j:5
+docker pull neo4j:Latest
+docker run --name neo4j -p7474:7474 -p7687:7687 -d -e NEO4J_AUTH=<username>/<password> neo4j:Latest
 ```
 ### 3. Create files
 
