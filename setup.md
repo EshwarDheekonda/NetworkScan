@@ -34,5 +34,4 @@ Open http://localhost:7474 Login: <username> / <password>
 Run graph.py and it will create the graph. it may take a few minutes depending on how good your computer hardware is. You can then go back to the dashboard and run the command
 ``` bash
 match (n:tactic) return n
-```
-to see the main tactics of the mitre attack framework
+```to see the main tactics of the mitre attack framework
