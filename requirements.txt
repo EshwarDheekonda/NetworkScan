@@ -1,10 +1,33 @@
+# Neo4j Database
 py2neo>=2021.2.4
 
 # Knowledge Fusion Module Dependencies
+# CRITICAL: NumPy must be <2.0.0 to avoid binary incompatibility with pandas/scikit-learn/transformers
+# Install numpy FIRST before other packages
+numpy>=1.24.0
 sentence-transformers>=2.2.2
 langchain>=0.1.0
 langchain-openai>=0.0.5
+langchain-community>=0.0.20  # For Ollama and other community integrations
+langchain-anthropic>=0.1.0  # For Anthropic Claude support (optional)
 pydantic>=2.5.0
-numpy>=1.24.0
 python-dotenv>=1.0.0
 tf-keras>=2.20.0  # Required for sentence-transformers compatibility
+
+# Agent System Dependencies
+redis>=5.0.0  # For message bus communication
+scipy>=1.10.0  # For statistical baseline learning
+
+# Modern AI Agent Framework
+crewai>=0.28.0  # Agentic framework for LLM agents
+crewai-tools>=0.1.0  # CrewAI tools
+
+# Observability & UI
+rich>=13.0.0  # Rich terminal UI for dashboard
+typer>=0.9.0  # CLI framework for approvals (optional)
+
+# Attack Testing API
+flask>=3.0.0  # REST API framework
+flask-cors>=4.0.0  # CORS support for frontend integration
+flask-socketio>=5.3.0  # WebSocket support for real-time updates
+python-socketio>=5.10.0  # Socket.IO client/server library

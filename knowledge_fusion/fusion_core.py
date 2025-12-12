@@ -310,7 +310,7 @@ class CrossAgentCorrelator:
     
     def correlate_agents(self, agent_outputs: List[AgentOutput]) -> Dict[str, Any]:
         """
-        Correlate observations across multiple agents.
+        Correlate observations across multiple agents and detect coordinated attacks.
         
         Args:
             agent_outputs: List of agent outputs from different agents
@@ -347,26 +347,106 @@ class CrossAgentCorrelator:
         technique_overlap = self._find_technique_overlap(agent_outputs)
         tactic_overlap = self._find_tactic_overlap(agent_outputs)
         
-        return {
-            "correlated": len(correlated_indicators) > 0 or len(technique_overlap) > 0,
+        correlation_score = self._calculate_correlation_score(correlated_indicators, technique_overlap)
+        is_correlated = len(correlated_indicators) > 0 or len(technique_overlap) > 0
+        
+        result = {
+            "correlated": is_correlated,
             "correlated_indicators": correlated_indicators,
             "technique_overlap": technique_overlap,
             "tactic_overlap": tactic_overlap,
             "agent_count": len(agent_outputs),
             "observation_count": len(all_observations),
-            "correlation_score": self._calculate_correlation_score(correlated_indicators, technique_overlap)
+            "correlation_score": correlation_score
         }
+        
+        # If strong correlation detected, flag for proactive warning
+        if is_correlated and correlation_score > 0.6:
+            result["coordinated_attack_detected"] = True
+            result["attack_confidence"] = min(1.0, correlation_score + 0.2)
+            result["detecting_agents"] = list(set(ao.agent_id for ao in agent_outputs))
+            result["recommendation"] = "Proactive warning should be generated for coordinated attack"
+        else:
+            result["coordinated_attack_detected"] = False
+        
+        return result
     
     def _find_technique_overlap(self, agent_outputs: List[AgentOutput]) -> Dict[str, List[str]]:
-        """Find MITRE techniques that appear across multiple agents."""
-        # For now, return empty - this would require storing technique matches per agent
-        # In full implementation, this would track which techniques match each agent's observations
-        return {}
+        """
+        Find MITRE techniques that appear across multiple agents.
+        
+        Args:
+            agent_outputs: List of agent outputs
+            
+        Returns:
+            Dictionary mapping technique IDs to list of agent IDs that detected them
+        """
+        technique_agents = defaultdict(set)
+        
+        for output in agent_outputs:
+            for obs in output.observations:
+                # Check for MITRE techniques in metadata
+                if 'mitre_techniques' in obs.metadata:
+                    techs = obs.metadata['mitre_techniques']
+                    if isinstance(techs, list):
+                        for tech in techs:
+                            if isinstance(tech, dict):
+                                tech_id = tech.get('id') or tech.get('external_id')
+                            else:
+                                tech_id = str(tech)
+                            if tech_id:
+                                technique_agents[tech_id].add(output.agent_id)
+                
+                # Also check proactive MITRE guidance
+                if 'proactive_mitre' in obs.metadata:
+                    proactive = obs.metadata['proactive_mitre']
+                    if isinstance(proactive, dict):
+                        matched_techs = proactive.get('matched_techniques', [])
+                        for tech in matched_techs:
+                            if isinstance(tech, dict):
+                                tech_id = tech.get('id') or tech.get('external_id')
+                                if tech_id:
+                                    technique_agents[tech_id].add(output.agent_id)
+        
+        # Return only techniques detected by multiple agents
+        return {
+            tech_id: list(agents)
+            for tech_id, agents in technique_agents.items()
+            if len(agents) > 1
+        }
     
     def _find_tactic_overlap(self, agent_outputs: List[AgentOutput]) -> Dict[str, List[str]]:
-        """Find MITRE tactics that appear across multiple agents."""
-        # Similar to technique overlap
-        return {}
+        """
+        Find MITRE tactics that appear across multiple agents.
+        
+        Args:
+            agent_outputs: List of agent outputs
+            
+        Returns:
+            Dictionary mapping tactic names to list of agent IDs that detected them
+        """
+        tactic_agents = defaultdict(set)
+        
+        for output in agent_outputs:
+            for obs in output.observations:
+                # Check for MITRE tactics in metadata
+                if 'mitre_tactics' in obs.metadata:
+                    tactics = obs.metadata['mitre_tactics']
+                    if isinstance(tactics, list):
+                        for tactic in tactics:
+                            if isinstance(tactic, dict):
+                                tactic_name = tactic.get('name')
+                            else:
+                                tactic_name = str(tactic)
+                            if tactic_name:
+                                tactic_agents[tactic_name].add(output.agent_id)
+        
+        # Return only tactics detected by multiple agents
+        return {
+            tactic_name: list(agents)
+            for tactic_name, agents in tactic_agents.items()
+            if len(agents) > 1
+        }
     
     def _calculate_correlation_score(self, correlated_indicators: Dict, technique_overlap: Dict) -> float:
         """Calculate correlation score between 0.0 and 1.0."""

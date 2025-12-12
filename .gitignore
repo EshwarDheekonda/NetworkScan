@@ -129,3 +129,70 @@ cred.json
 
 # Cython debug symbols
 cython_debug/
+
+# Project-specific ignores
+# Virtual environments
+myenv/
+venv/
+env/
+.venv/
+
+# Credentials and secrets
+cred.json
+*.key
+*.pem
+.env
+.env.local
+
+# Test reports and logs
+*_test_report_*.json
+*_verification_report_*.txt
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Large test data files (keep small examples)
+# test_data/*.json
+# !test_data/*_test.json
+
+# Attack data files
+enterprise-attack.json
+
+# System files
+Thumbs.db
+desktop.ini
+
+# Documentation build
+docs/_build/
+site/
+
+# Coverage reports
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

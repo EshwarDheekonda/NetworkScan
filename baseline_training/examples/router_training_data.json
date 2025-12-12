@@ -1,0 +1,8305 @@
+[
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1653,
+    "bytes_received": 22377,
+    "duration_seconds": 193.83,
+    "dest_ip": "8.8.4.4",
+    "source_ip": "192.168.1.7"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7728,
+    "bytes_received": 27749,
+    "duration_seconds": 99.91,
+    "dest_domain": "dropbox.com",
+    "source_ip": "192.168.1.228"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4936,
+    "bytes_received": 44105,
+    "duration_seconds": 177.68,
+    "dest_domain": "github.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1001,
+    "bytes_received": 30705,
+    "duration_seconds": 77.74,
+    "dest_domain": "8.8.4.4",
+    "source_ip": "192.168.1.103"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1497,
+    "bytes_received": 4809,
+    "duration_seconds": 61.95,
+    "dest_domain": "reuters.com",
+    "source_ip": "192.168.1.243"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1286,
+    "bytes_received": 90840,
+    "duration_seconds": 58.03,
+    "dest_domain": "reuters.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5707,
+    "bytes_received": 24500,
+    "duration_seconds": 175.96,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2706,
+    "bytes_received": 15034,
+    "duration_seconds": 112.53,
+    "dest_domain": "youtube.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1319,
+    "bytes_received": 45406,
+    "duration_seconds": 189.24,
+    "dest_domain": "fastly.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4070,
+    "bytes_received": 7792771,
+    "duration_seconds": 206.37,
+    "dest_domain": "reddit.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8941,
+    "bytes_received": 47463,
+    "duration_seconds": 244.61,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1076,
+    "bytes_received": 10149890,
+    "duration_seconds": 274.61,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9407,
+    "bytes_received": 32658,
+    "duration_seconds": 230.25,
+    "dest_domain": "docker.com",
+    "source_ip": "192.168.1.148"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4061,
+    "bytes_received": 6460465,
+    "duration_seconds": 219.94,
+    "dest_domain": "techcrunch.com",
+    "source_ip": "192.168.1.175"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6527,
+    "bytes_received": 46300,
+    "duration_seconds": 68.03,
+    "dest_domain": "github.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2748,
+    "bytes_received": 84255,
+    "duration_seconds": 4.5,
+    "dest_ip": "8.8.8.8",
+    "source_ip": "192.168.1.65"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1568,
+    "bytes_received": 3131858,
+    "duration_seconds": 212.54,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3600,
+    "bytes_received": 79026,
+    "duration_seconds": 29.53,
+    "dest_domain": "outlook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6672,
+    "bytes_received": 38385,
+    "duration_seconds": 181.45,
+    "dest_domain": "github.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5410,
+    "bytes_received": 37042,
+    "duration_seconds": 80.21,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9847,
+    "bytes_received": 8487,
+    "duration_seconds": 244.78,
+    "dest_domain": "bbc.com",
+    "source_ip": "192.168.1.112"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3460,
+    "bytes_received": 20209,
+    "duration_seconds": 22.83,
+    "dest_domain": "microsoft.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3515,
+    "bytes_received": 16121,
+    "duration_seconds": 6.31,
+    "dest_domain": "cnn.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9474,
+    "bytes_received": 7219,
+    "duration_seconds": 284.62,
+    "dest_domain": "kubernetes.io",
+    "source_ip": "192.168.1.133"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9077,
+    "bytes_received": 37537,
+    "duration_seconds": 195.55,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1483,
+    "bytes_received": 26237,
+    "duration_seconds": 147.49,
+    "dest_domain": "reddit.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1280,
+    "bytes_received": 70626,
+    "duration_seconds": 58.41,
+    "dest_domain": "1.1.1.1",
+    "source_ip": "192.168.1.103"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8097,
+    "bytes_received": 2777,
+    "duration_seconds": 62.94,
+    "dest_domain": "microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2503,
+    "bytes_received": 23655,
+    "duration_seconds": 24.16,
+    "dest_ip": "208.67.222.222",
+    "source_ip": "192.168.1.57"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2957,
+    "bytes_received": 30215,
+    "duration_seconds": 233.79,
+    "dest_domain": "github.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6578,
+    "bytes_received": 49337,
+    "duration_seconds": 189.14,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8821,
+    "bytes_received": 39241,
+    "duration_seconds": 86.73,
+    "dest_domain": "dropbox.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1476,
+    "bytes_received": 3701723,
+    "duration_seconds": 252.32,
+    "dest_domain": "linkedin.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8957,
+    "bytes_received": 18316,
+    "duration_seconds": 180.11,
+    "dest_domain": "office.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3158,
+    "bytes_received": 6865661,
+    "duration_seconds": 74.04,
+    "dest_domain": "outlook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3538,
+    "bytes_received": 6856637,
+    "duration_seconds": 290.83,
+    "dest_domain": "portal.azure.com"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 83,
+    "bytes_received": 118,
+    "duration_seconds": 0.77,
+    "dest_domain": "outlook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2407,
+    "bytes_received": 2844845,
+    "duration_seconds": 290.46,
+    "dest_ip": "172.217.164.142",
+    "source_ip": "192.168.1.66"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7800,
+    "bytes_received": 47064,
+    "duration_seconds": 184.54,
+    "dest_domain": "npmjs.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8801,
+    "bytes_received": 23074,
+    "duration_seconds": 144.46,
+    "dest_domain": "cdnjs.cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6341,
+    "bytes_received": 8585,
+    "duration_seconds": 37.37,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1395,
+    "bytes_received": 22495,
+    "duration_seconds": 133.08,
+    "dest_domain": "zoom.us"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2731,
+    "bytes_received": 58573,
+    "duration_seconds": 32.63,
+    "dest_domain": "office.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2532,
+    "bytes_received": 14299,
+    "duration_seconds": 288.07,
+    "dest_domain": "reuters.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9943,
+    "bytes_received": 13986,
+    "duration_seconds": 257.36,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2752,
+    "bytes_received": 21060,
+    "duration_seconds": 130.74,
+    "dest_domain": "cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4868,
+    "bytes_received": 40205,
+    "duration_seconds": 63.45,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3499,
+    "bytes_received": 4398810,
+    "duration_seconds": 151.33,
+    "dest_domain": "pypi.org"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3141,
+    "bytes_received": 8904147,
+    "duration_seconds": 266.88,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5112,
+    "bytes_received": 10243892,
+    "duration_seconds": 34.28,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3876,
+    "bytes_received": 4036718,
+    "duration_seconds": 102.6,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2127,
+    "bytes_received": 4197709,
+    "duration_seconds": 81.38,
+    "dest_ip": "8.8.8.8",
+    "source_ip": "192.168.1.190"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5052,
+    "bytes_received": 9394,
+    "duration_seconds": 55.19,
+    "dest_domain": "live.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4285,
+    "bytes_received": 3220,
+    "duration_seconds": 97.47,
+    "dest_ip": "8.8.4.4",
+    "source_ip": "192.168.1.5"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6094,
+    "bytes_received": 8986,
+    "duration_seconds": 201.49,
+    "dest_domain": "azure.microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2875,
+    "bytes_received": 2565476,
+    "duration_seconds": 21.02,
+    "dest_domain": "microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9627,
+    "bytes_received": 18001,
+    "duration_seconds": 32.45,
+    "dest_domain": "bbc.com",
+    "source_ip": "192.168.1.65"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3231,
+    "bytes_received": 16271,
+    "duration_seconds": 81.23,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3439,
+    "bytes_received": 96837,
+    "duration_seconds": 4.56,
+    "dest_ip": "172.217.164.110",
+    "source_ip": "192.168.1.233"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 592,
+    "bytes_received": 5184,
+    "duration_seconds": 246.43,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4217,
+    "bytes_received": 18855,
+    "duration_seconds": 296.6,
+    "dest_domain": "portal.azure.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8721,
+    "bytes_received": 14228,
+    "duration_seconds": 19.98,
+    "dest_domain": "reddit.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2372,
+    "bytes_received": 9070696,
+    "duration_seconds": 57.08,
+    "dest_domain": "linkedin.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3129,
+    "bytes_received": 95973,
+    "duration_seconds": 29.21,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2586,
+    "bytes_received": 68940,
+    "duration_seconds": 44.78,
+    "dest_domain": "twitter.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1159,
+    "bytes_received": 5166,
+    "duration_seconds": 271.02,
+    "dest_domain": "cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9546,
+    "bytes_received": 34900,
+    "duration_seconds": 291.55,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2758,
+    "bytes_received": 43444,
+    "duration_seconds": 54.16,
+    "dest_domain": "live.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2553,
+    "bytes_received": 60778,
+    "duration_seconds": 26.78,
+    "dest_domain": "google.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5313,
+    "bytes_received": 19155,
+    "duration_seconds": 178.27,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3053,
+    "bytes_received": 8963496,
+    "duration_seconds": 28.62,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6399,
+    "bytes_received": 13056,
+    "duration_seconds": 208.63,
+    "dest_ip": "1.1.1.1",
+    "source_ip": "192.168.1.83"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 73,
+    "bytes_received": 114,
+    "duration_seconds": 0.19,
+    "dest_domain": "linkedin.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1097,
+    "bytes_received": 27228,
+    "duration_seconds": 34.65,
+    "dest_domain": "aws.amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1908,
+    "bytes_received": 17913,
+    "duration_seconds": 115.57,
+    "dest_domain": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7631,
+    "bytes_received": 28314,
+    "duration_seconds": 188.02,
+    "dest_domain": "1.1.1.1"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 43,
+    "bytes_received": 250,
+    "duration_seconds": 0.22,
+    "dest_domain": "pypi.org",
+    "source_ip": "192.168.1.14"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2425,
+    "bytes_received": 20230,
+    "duration_seconds": 223.24,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3403,
+    "bytes_received": 7379,
+    "duration_seconds": 25.86,
+    "dest_domain": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7417,
+    "bytes_received": 2838,
+    "duration_seconds": 55.94,
+    "dest_domain": "techcrunch.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4438,
+    "bytes_received": 28329,
+    "duration_seconds": 100.91,
+    "dest_domain": "teams.microsoft.com"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 118,
+    "bytes_received": 226,
+    "duration_seconds": 0.61,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4073,
+    "bytes_received": 12050,
+    "duration_seconds": 6.62,
+    "dest_domain": "1.0.0.1",
+    "source_ip": "192.168.1.36"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7681,
+    "bytes_received": 6379,
+    "duration_seconds": 106.5,
+    "dest_domain": "dropbox.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3454,
+    "bytes_received": 3164640,
+    "duration_seconds": 144.13,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1692,
+    "bytes_received": 5462808,
+    "duration_seconds": 241.65,
+    "dest_domain": "kubernetes.io"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5032,
+    "bytes_received": 412187,
+    "duration_seconds": 245.08,
+    "dest_domain": "amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2817,
+    "bytes_received": 6676722,
+    "duration_seconds": 64.14,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8637,
+    "bytes_received": 15147,
+    "duration_seconds": 109.2,
+    "dest_domain": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8549,
+    "bytes_received": 31092,
+    "duration_seconds": 10.39,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1654,
+    "bytes_received": 9855155,
+    "duration_seconds": 134.12,
+    "dest_domain": "kubernetes.io",
+    "source_ip": "192.168.1.181"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5762,
+    "bytes_received": 32966,
+    "duration_seconds": 201.66,
+    "dest_domain": "linkedin.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8523,
+    "bytes_received": 40246,
+    "duration_seconds": 184.65,
+    "dest_domain": "cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6422,
+    "bytes_received": 16183,
+    "duration_seconds": 258.63,
+    "dest_domain": "portal.azure.com",
+    "source_ip": "192.168.1.140"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 741,
+    "bytes_received": 46834,
+    "duration_seconds": 33.76,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 786,
+    "bytes_received": 9619,
+    "duration_seconds": 45.31,
+    "dest_domain": "github.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5782,
+    "bytes_received": 10610,
+    "duration_seconds": 166.94,
+    "dest_domain": "cdnjs.cloudflare.com"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 107,
+    "bytes_received": 179,
+    "duration_seconds": 0.46,
+    "dest_ip": "172.217.164.142",
+    "source_ip": "192.168.1.37"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4300,
+    "bytes_received": 34510,
+    "duration_seconds": 246.07,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3009,
+    "bytes_received": 43937,
+    "duration_seconds": 116.06,
+    "dest_domain": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2755,
+    "bytes_received": 4572568,
+    "duration_seconds": 221.19,
+    "dest_domain": "portal.azure.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1288,
+    "bytes_received": 5571280,
+    "duration_seconds": 160.43,
+    "dest_domain": "slack.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2294,
+    "bytes_received": 5027,
+    "duration_seconds": 102.42,
+    "dest_domain": "reuters.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1331,
+    "bytes_received": 23848,
+    "duration_seconds": 11.18,
+    "dest_domain": "twitter.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2527,
+    "bytes_received": 26608,
+    "duration_seconds": 62.45,
+    "dest_domain": "twitter.com",
+    "source_ip": "192.168.1.249"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3999,
+    "bytes_received": 42419,
+    "duration_seconds": 48.24,
+    "dest_domain": "github.com",
+    "source_ip": "192.168.1.134"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7739,
+    "bytes_received": 35948,
+    "duration_seconds": 13.69,
+    "dest_domain": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1530,
+    "bytes_received": 8408494,
+    "duration_seconds": 206.94,
+    "dest_ip": "8.8.8.8",
+    "source_ip": "192.168.1.13"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1863,
+    "bytes_received": 95958,
+    "duration_seconds": 17.95,
+    "dest_domain": "pypi.org"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4139,
+    "bytes_received": 29566,
+    "duration_seconds": 43.89,
+    "dest_domain": "teams.microsoft.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2204,
+    "bytes_received": 12975,
+    "duration_seconds": 31.37,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1639,
+    "bytes_received": 74853,
+    "duration_seconds": 10.69,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1981,
+    "bytes_received": 40438,
+    "duration_seconds": 213.5,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8484,
+    "bytes_received": 19129,
+    "duration_seconds": 249.67,
+    "dest_ip": "172.217.164.110",
+    "source_ip": "192.168.1.103"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7526,
+    "bytes_received": 4779,
+    "duration_seconds": 181.03,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7988,
+    "bytes_received": 2847,
+    "duration_seconds": 168.87,
+    "dest_domain": "reddit.com",
+    "source_ip": "192.168.1.183"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2159,
+    "bytes_received": 93828,
+    "duration_seconds": 11.35,
+    "dest_ip": "8.8.8.8",
+    "source_ip": "192.168.1.109"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4491,
+    "bytes_received": 2104899,
+    "duration_seconds": 159.0,
+    "dest_domain": "cnn.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4091,
+    "bytes_received": 23469,
+    "duration_seconds": 83.11,
+    "dest_domain": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3454,
+    "bytes_received": 1965681,
+    "duration_seconds": 9.29,
+    "dest_domain": "cnn.com",
+    "source_ip": "192.168.1.213"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7423,
+    "bytes_received": 33789,
+    "duration_seconds": 271.33,
+    "dest_domain": "office.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4962,
+    "bytes_received": 17638,
+    "duration_seconds": 207.62,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 10060,
+    "bytes_received": 33430,
+    "duration_seconds": 237.04,
+    "dest_domain": "dropbox.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1254,
+    "bytes_received": 48394,
+    "duration_seconds": 22.72,
+    "dest_domain": "outlook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5319,
+    "bytes_received": 12557,
+    "duration_seconds": 99.32,
+    "dest_domain": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3309,
+    "bytes_received": 10006286,
+    "duration_seconds": 61.58,
+    "dest_domain": "github.com",
+    "source_ip": "192.168.1.143"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4866,
+    "bytes_received": 4202516,
+    "duration_seconds": 178.73,
+    "dest_domain": "aws.amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3600,
+    "bytes_received": 10271449,
+    "duration_seconds": 15.38,
+    "dest_domain": "portal.azure.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7430,
+    "bytes_received": 35212,
+    "duration_seconds": 92.8,
+    "dest_domain": "wikipedia.org"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4481,
+    "bytes_received": 5676,
+    "duration_seconds": 118.14,
+    "dest_domain": "youtube.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1401,
+    "bytes_received": 4397,
+    "duration_seconds": 218.57,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4595,
+    "bytes_received": 47023,
+    "duration_seconds": 176.41,
+    "dest_domain": "youtube.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2611,
+    "bytes_received": 49995,
+    "duration_seconds": 12.41,
+    "dest_domain": "amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7166,
+    "bytes_received": 4544,
+    "duration_seconds": 233.42,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8829,
+    "bytes_received": 9072,
+    "duration_seconds": 107.34,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7707,
+    "bytes_received": 5435,
+    "duration_seconds": 68.47,
+    "dest_domain": "slack.com",
+    "source_ip": "192.168.1.180"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5289,
+    "bytes_received": 39277,
+    "duration_seconds": 138.44,
+    "dest_domain": "fastly.com",
+    "source_ip": "192.168.1.19"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 108,
+    "bytes_received": 126,
+    "duration_seconds": 0.68,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3694,
+    "bytes_received": 81541,
+    "duration_seconds": 16.86,
+    "dest_domain": "outlook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4069,
+    "bytes_received": 10172340,
+    "duration_seconds": 15.53,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9922,
+    "bytes_received": 37231,
+    "duration_seconds": 191.77,
+    "dest_domain": "npmjs.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2763,
+    "bytes_received": 3145,
+    "duration_seconds": 210.38,
+    "dest_domain": "wikipedia.org"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4691,
+    "bytes_received": 8878928,
+    "duration_seconds": 128.82,
+    "dest_domain": "1.1.1.1",
+    "source_ip": "192.168.1.196"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2107,
+    "bytes_received": 8162905,
+    "duration_seconds": 160.31,
+    "dest_domain": "cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7050,
+    "bytes_received": 36650,
+    "duration_seconds": 268.84,
+    "dest_domain": "bbc.com",
+    "source_ip": "192.168.1.100"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5136,
+    "bytes_received": 11059,
+    "duration_seconds": 112.59,
+    "dest_domain": "azure.microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4499,
+    "bytes_received": 5535,
+    "duration_seconds": 200.46,
+    "dest_domain": "github.com",
+    "source_ip": "192.168.1.230"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4744,
+    "bytes_received": 23548,
+    "duration_seconds": 5.76,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6808,
+    "bytes_received": 9491,
+    "duration_seconds": 38.03,
+    "dest_domain": "stackoverflow.com",
+    "source_ip": "192.168.1.16"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2522,
+    "bytes_received": 9110128,
+    "duration_seconds": 89.12,
+    "dest_domain": "slack.com",
+    "source_ip": "192.168.1.152"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3988,
+    "bytes_received": 33382,
+    "duration_seconds": 90.85,
+    "dest_ip": "1.1.1.1",
+    "source_ip": "192.168.1.220"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1375,
+    "bytes_received": 7079,
+    "duration_seconds": 185.49,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2520,
+    "bytes_received": 31463,
+    "duration_seconds": 140.11,
+    "dest_domain": "gmail.com",
+    "source_ip": "192.168.1.54"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3337,
+    "bytes_received": 2632978,
+    "duration_seconds": 170.38,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7631,
+    "bytes_received": 11587,
+    "duration_seconds": 213.47,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3166,
+    "bytes_received": 15995,
+    "duration_seconds": 21.99,
+    "dest_domain": "pypi.org"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1432,
+    "bytes_received": 9855905,
+    "duration_seconds": 73.2,
+    "dest_domain": "portal.azure.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7152,
+    "bytes_received": 41157,
+    "duration_seconds": 24.86,
+    "dest_domain": "kubernetes.io"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6228,
+    "bytes_received": 38748,
+    "duration_seconds": 90.52,
+    "dest_domain": "bbc.com",
+    "source_ip": "192.168.1.192"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3002,
+    "bytes_received": 26813,
+    "duration_seconds": 261.56,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3224,
+    "bytes_received": 45925,
+    "duration_seconds": 115.66,
+    "dest_domain": "portal.azure.com",
+    "source_ip": "192.168.1.105"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9162,
+    "bytes_received": 9933,
+    "duration_seconds": 231.4,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1958,
+    "bytes_received": 79585,
+    "duration_seconds": 35.55,
+    "dest_domain": "techcrunch.com",
+    "source_ip": "192.168.1.28"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 916,
+    "bytes_received": 47233,
+    "duration_seconds": 159.05,
+    "dest_domain": "gmail.com"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 44,
+    "bytes_received": 113,
+    "duration_seconds": 0.16,
+    "dest_domain": "pypi.org"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4440,
+    "bytes_received": 44336,
+    "duration_seconds": 8.23,
+    "dest_domain": "youtube.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4612,
+    "bytes_received": 28949,
+    "duration_seconds": 69.84,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1806,
+    "bytes_received": 2991611,
+    "duration_seconds": 118.7,
+    "dest_ip": "8.8.8.8",
+    "source_ip": "192.168.1.144"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8476,
+    "bytes_received": 30456,
+    "duration_seconds": 162.97,
+    "dest_domain": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3588,
+    "bytes_received": 37035,
+    "duration_seconds": 24.76,
+    "dest_domain": "cdnjs.cloudflare.com",
+    "source_ip": "192.168.1.72"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2206,
+    "bytes_received": 4558,
+    "duration_seconds": 91.8,
+    "dest_domain": "facebook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2421,
+    "bytes_received": 123974,
+    "duration_seconds": 105.55,
+    "dest_domain": "pypi.org"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5890,
+    "bytes_received": 41844,
+    "duration_seconds": 150.74,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2592,
+    "bytes_received": 48950,
+    "duration_seconds": 38.48,
+    "dest_domain": "gmail.com",
+    "source_ip": "192.168.1.115"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2017,
+    "bytes_received": 4505916,
+    "duration_seconds": 123.79,
+    "dest_domain": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6009,
+    "bytes_received": 42877,
+    "duration_seconds": 37.3,
+    "dest_domain": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1782,
+    "bytes_received": 33978,
+    "duration_seconds": 164.0,
+    "dest_ip": "8.8.8.8",
+    "source_ip": "192.168.1.133"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3285,
+    "bytes_received": 7929027,
+    "duration_seconds": 151.18,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3426,
+    "bytes_received": 97272,
+    "duration_seconds": 20.3,
+    "dest_domain": "gmail.com",
+    "source_ip": "192.168.1.126"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 51,
+    "bytes_received": 92,
+    "duration_seconds": 0.98,
+    "dest_domain": "youtube.com",
+    "source_ip": "192.168.1.248"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2603,
+    "bytes_received": 26561,
+    "duration_seconds": 92.31,
+    "dest_domain": "dropbox.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2966,
+    "bytes_received": 56488,
+    "duration_seconds": 54.23,
+    "dest_domain": "slack.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9844,
+    "bytes_received": 41035,
+    "duration_seconds": 10.06,
+    "dest_domain": "reddit.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4261,
+    "bytes_received": 405548,
+    "duration_seconds": 236.37,
+    "dest_domain": "slack.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1793,
+    "bytes_received": 2798147,
+    "duration_seconds": 26.24,
+    "dest_domain": "pypi.org"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9054,
+    "bytes_received": 47985,
+    "duration_seconds": 50.81,
+    "dest_domain": "youtube.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2128,
+    "bytes_received": 21038,
+    "duration_seconds": 73.16,
+    "dest_domain": "wikipedia.org"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 117,
+    "bytes_received": 188,
+    "duration_seconds": 0.67,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 321,
+    "bytes_received": 50235,
+    "duration_seconds": 59.44,
+    "dest_domain": "fastly.com",
+    "source_ip": "192.168.1.102"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1659,
+    "bytes_received": 8219564,
+    "duration_seconds": 178.89,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8286,
+    "bytes_received": 40131,
+    "duration_seconds": 198.92,
+    "dest_domain": "linkedin.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3314,
+    "bytes_received": 1214229,
+    "duration_seconds": 270.7,
+    "dest_domain": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7182,
+    "bytes_received": 26031,
+    "duration_seconds": 103.68,
+    "dest_domain": "outlook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2965,
+    "bytes_received": 12449,
+    "duration_seconds": 251.45,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5677,
+    "bytes_received": 44626,
+    "duration_seconds": 173.75,
+    "dest_domain": "1.0.0.1",
+    "source_ip": "192.168.1.82"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5230,
+    "bytes_received": 5747,
+    "duration_seconds": 205.1,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2126,
+    "bytes_received": 5463756,
+    "duration_seconds": 229.48,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7560,
+    "bytes_received": 16307,
+    "duration_seconds": 42.39,
+    "dest_domain": "pypi.org"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 5019,
+    "bytes_received": 29195,
+    "duration_seconds": 10.36,
+    "dest_domain": "stackoverflow.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2715,
+    "bytes_received": 7336051,
+    "duration_seconds": 187.01,
+    "dest_domain": "outlook.com",
+    "source_ip": "192.168.1.133"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 123,
+    "bytes_received": 219,
+    "duration_seconds": 0.52,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4200,
+    "bytes_received": 7900414,
+    "duration_seconds": 55.3,
+    "dest_domain": "aws.amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3286,
+    "bytes_received": 7085569,
+    "duration_seconds": 183.09,
+    "dest_domain": "portal.azure.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2963,
+    "bytes_received": 760651,
+    "duration_seconds": 73.27,
+    "dest_ip": "172.217.164.142",
+    "source_ip": "192.168.1.60"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2762,
+    "bytes_received": 43834,
+    "duration_seconds": 213.94,
+    "dest_domain": "teams.microsoft.com"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 53,
+    "bytes_received": 155,
+    "duration_seconds": 0.89,
+    "dest_domain": "8.8.4.4",
+    "source_ip": "192.168.1.173"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 122,
+    "bytes_received": 99,
+    "duration_seconds": 0.23,
+    "dest_domain": "akamai.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1689,
+    "bytes_received": 7216852,
+    "duration_seconds": 79.86,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1040,
+    "bytes_received": 5492,
+    "duration_seconds": 244.67,
+    "dest_domain": "aws.amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8534,
+    "bytes_received": 38659,
+    "duration_seconds": 298.81,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 51,
+    "bytes_received": 210,
+    "duration_seconds": 0.93,
+    "dest_domain": "azure.microsoft.com",
+    "source_ip": "192.168.1.3"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3605,
+    "bytes_received": 3470016,
+    "duration_seconds": 76.73,
+    "dest_ip": "172.217.164.142",
+    "source_ip": "192.168.1.21"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5823,
+    "bytes_received": 30392,
+    "duration_seconds": 45.28,
+    "dest_domain": "github.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3570,
+    "bytes_received": 68839,
+    "duration_seconds": 17.44,
+    "dest_domain": "aws.amazon.com",
+    "source_ip": "192.168.1.2"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1297,
+    "bytes_received": 3527477,
+    "duration_seconds": 222.01,
+    "dest_domain": "akamai.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6861,
+    "bytes_received": 40667,
+    "duration_seconds": 268.49,
+    "dest_domain": "youtube.com"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 40,
+    "bytes_received": 225,
+    "duration_seconds": 0.45,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4678,
+    "bytes_received": 9534708,
+    "duration_seconds": 73.95,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7216,
+    "bytes_received": 44613,
+    "duration_seconds": 191.27,
+    "dest_domain": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4325,
+    "bytes_received": 4928,
+    "duration_seconds": 212.26,
+    "dest_domain": "techcrunch.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4532,
+    "bytes_received": 70560,
+    "duration_seconds": 39.37,
+    "dest_ip": "172.217.164.142",
+    "source_ip": "192.168.1.138"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3392,
+    "bytes_received": 5632864,
+    "duration_seconds": 162.93,
+    "dest_domain": "reuters.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8634,
+    "bytes_received": 23516,
+    "duration_seconds": 295.71,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1734,
+    "bytes_received": 40373,
+    "duration_seconds": 180.8,
+    "dest_domain": "amazon.com",
+    "source_ip": "192.168.1.243"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 5053,
+    "bytes_received": 18093,
+    "duration_seconds": 15.88,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 33,
+    "bytes_received": 224,
+    "duration_seconds": 0.89,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6607,
+    "bytes_received": 7196,
+    "duration_seconds": 274.35,
+    "dest_domain": "fastly.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5936,
+    "bytes_received": 13158,
+    "duration_seconds": 38.6,
+    "dest_domain": "slack.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3522,
+    "bytes_received": 418834,
+    "duration_seconds": 51.85,
+    "dest_domain": "cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6234,
+    "bytes_received": 43731,
+    "duration_seconds": 225.61,
+    "dest_domain": "kubernetes.io"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2403,
+    "bytes_received": 1105986,
+    "duration_seconds": 173.49,
+    "dest_ip": "208.67.222.222",
+    "source_ip": "192.168.1.169"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3630,
+    "bytes_received": 46391,
+    "duration_seconds": 211.64,
+    "dest_domain": "reddit.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 766,
+    "bytes_received": 88020,
+    "duration_seconds": 57.79,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5556,
+    "bytes_received": 29282,
+    "duration_seconds": 128.36,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9654,
+    "bytes_received": 51014,
+    "duration_seconds": 132.38,
+    "dest_domain": "linkedin.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9492,
+    "bytes_received": 29923,
+    "duration_seconds": 35.76,
+    "dest_domain": "akamai.com",
+    "source_ip": "192.168.1.73"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5475,
+    "bytes_received": 13147,
+    "duration_seconds": 279.59,
+    "dest_domain": "microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3943,
+    "bytes_received": 1006014,
+    "duration_seconds": 221.53,
+    "dest_domain": "zoom.us",
+    "source_ip": "192.168.1.48"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2899,
+    "bytes_received": 111316,
+    "duration_seconds": 215.72,
+    "dest_ip": "1.0.0.1",
+    "source_ip": "192.168.1.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4034,
+    "bytes_received": 8781244,
+    "duration_seconds": 12.17,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 77,
+    "bytes_received": 135,
+    "duration_seconds": 0.17,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7629,
+    "bytes_received": 43237,
+    "duration_seconds": 143.48,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1781,
+    "bytes_received": 9479938,
+    "duration_seconds": 25.44,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3000,
+    "bytes_received": 9429346,
+    "duration_seconds": 251.79,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6232,
+    "bytes_received": 50713,
+    "duration_seconds": 9.72,
+    "dest_ip": "1.0.0.1",
+    "source_ip": "192.168.1.155"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8644,
+    "bytes_received": 22409,
+    "duration_seconds": 28.32,
+    "dest_domain": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4743,
+    "bytes_received": 8882901,
+    "duration_seconds": 163.87,
+    "dest_ip": "1.0.0.1",
+    "source_ip": "192.168.1.184"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7055,
+    "bytes_received": 1149,
+    "duration_seconds": 227.41,
+    "dest_domain": "outlook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2320,
+    "bytes_received": 2883756,
+    "duration_seconds": 86.04,
+    "dest_domain": "reuters.com",
+    "source_ip": "192.168.1.23"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 95,
+    "bytes_received": 78,
+    "duration_seconds": 0.52,
+    "dest_domain": "office.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9621,
+    "bytes_received": 39363,
+    "duration_seconds": 78.57,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1103,
+    "bytes_received": 43135,
+    "duration_seconds": 209.81,
+    "dest_domain": "wikipedia.org"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9551,
+    "bytes_received": 35286,
+    "duration_seconds": 287.72,
+    "dest_domain": "drive.google.com",
+    "source_ip": "192.168.1.119"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8299,
+    "bytes_received": 26339,
+    "duration_seconds": 82.51,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2874,
+    "bytes_received": 20372,
+    "duration_seconds": 164.93,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 46,
+    "bytes_received": 156,
+    "duration_seconds": 0.66,
+    "dest_domain": "docker.com",
+    "source_ip": "192.168.1.241"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8204,
+    "bytes_received": 35903,
+    "duration_seconds": 67.28,
+    "dest_domain": "cloudflare.com"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 107,
+    "bytes_received": 224,
+    "duration_seconds": 0.33,
+    "dest_domain": "teams.microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7437,
+    "bytes_received": 40176,
+    "duration_seconds": 61.14,
+    "dest_domain": "reddit.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3347,
+    "bytes_received": 6059,
+    "duration_seconds": 293.21,
+    "dest_domain": "reddit.com",
+    "source_ip": "192.168.1.201"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1306,
+    "bytes_received": 43985,
+    "duration_seconds": 12.1,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4637,
+    "bytes_received": 22248,
+    "duration_seconds": 9.99,
+    "dest_domain": "office.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6024,
+    "bytes_received": 5670,
+    "duration_seconds": 263.1,
+    "dest_ip": "8.8.8.8",
+    "source_ip": "192.168.1.251"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7739,
+    "bytes_received": 13187,
+    "duration_seconds": 140.06,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2487,
+    "bytes_received": 10126348,
+    "duration_seconds": 139.65,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4332,
+    "bytes_received": 36577,
+    "duration_seconds": 244.98,
+    "dest_domain": "1.0.0.1",
+    "source_ip": "192.168.1.7"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1821,
+    "bytes_received": 839590,
+    "duration_seconds": 216.34,
+    "dest_domain": "8.8.4.4"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 76,
+    "bytes_received": 172,
+    "duration_seconds": 0.26,
+    "dest_domain": "github.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 343,
+    "bytes_received": 26659,
+    "duration_seconds": 56.32,
+    "dest_domain": "cnn.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4600,
+    "bytes_received": 96964,
+    "duration_seconds": 40.77,
+    "dest_domain": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2857,
+    "bytes_received": 3252126,
+    "duration_seconds": 68.99,
+    "dest_domain": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6384,
+    "bytes_received": 51047,
+    "duration_seconds": 178.12,
+    "dest_domain": "azure.microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1171,
+    "bytes_received": 11584,
+    "duration_seconds": 140.15,
+    "dest_domain": "cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2805,
+    "bytes_received": 43821,
+    "duration_seconds": 51.16,
+    "dest_ip": "1.1.1.1",
+    "source_ip": "192.168.1.11"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6969,
+    "bytes_received": 4055,
+    "duration_seconds": 30.13,
+    "dest_domain": "cnn.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7436,
+    "bytes_received": 43853,
+    "duration_seconds": 260.92,
+    "dest_domain": "kubernetes.io"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9060,
+    "bytes_received": 6442,
+    "duration_seconds": 215.41,
+    "dest_domain": "teams.microsoft.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3301,
+    "bytes_received": 36336,
+    "duration_seconds": 26.3,
+    "dest_ip": "8.8.4.4",
+    "source_ip": "192.168.1.53"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5482,
+    "bytes_received": 3795,
+    "duration_seconds": 164.37,
+    "dest_domain": "azure.microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5876,
+    "bytes_received": 32651,
+    "duration_seconds": 65.06,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 64,
+    "bytes_received": 158,
+    "duration_seconds": 0.39,
+    "dest_domain": "reuters.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 964,
+    "bytes_received": 88023,
+    "duration_seconds": 7.79,
+    "dest_ip": "1.1.1.1",
+    "source_ip": "192.168.1.161"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1255,
+    "bytes_received": 41078,
+    "duration_seconds": 154.57,
+    "dest_domain": "outlook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9900,
+    "bytes_received": 25704,
+    "duration_seconds": 42.91,
+    "dest_domain": "gmail.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1498,
+    "bytes_received": 19508,
+    "duration_seconds": 217.23,
+    "dest_domain": "wikipedia.org"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1574,
+    "bytes_received": 2589,
+    "duration_seconds": 173.39,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 603,
+    "bytes_received": 40391,
+    "duration_seconds": 243.68,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3991,
+    "bytes_received": 13873,
+    "duration_seconds": 166.9,
+    "dest_domain": "amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3507,
+    "bytes_received": 44378,
+    "duration_seconds": 83.13,
+    "dest_ip": "1.1.1.1",
+    "source_ip": "192.168.1.85"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1073,
+    "bytes_received": 7332078,
+    "duration_seconds": 138.87,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2762,
+    "bytes_received": 28472,
+    "duration_seconds": 191.42,
+    "dest_domain": "docker.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 990,
+    "bytes_received": 25123,
+    "duration_seconds": 45.11,
+    "dest_ip": "172.217.164.142",
+    "source_ip": "192.168.1.87"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3258,
+    "bytes_received": 28627,
+    "duration_seconds": 158.83,
+    "dest_domain": "stackoverflow.com",
+    "source_ip": "192.168.1.52"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1933,
+    "bytes_received": 33109,
+    "duration_seconds": 275.48,
+    "dest_domain": "portal.azure.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3894,
+    "bytes_received": 3104482,
+    "duration_seconds": 195.87,
+    "dest_domain": "cdnjs.cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8312,
+    "bytes_received": 24764,
+    "duration_seconds": 187.84,
+    "dest_domain": "google.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3099,
+    "bytes_received": 10048,
+    "duration_seconds": 261.75,
+    "dest_domain": "drive.google.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1199,
+    "bytes_received": 7981758,
+    "duration_seconds": 33.9,
+    "dest_domain": "facebook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4408,
+    "bytes_received": 49212,
+    "duration_seconds": 129.37,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9824,
+    "bytes_received": 8612,
+    "duration_seconds": 12.75,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1161,
+    "bytes_received": 1753,
+    "duration_seconds": 48.38,
+    "dest_domain": "zoom.us",
+    "source_ip": "192.168.1.143"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4197,
+    "bytes_received": 89305,
+    "duration_seconds": 26.54,
+    "dest_domain": "techcrunch.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3620,
+    "bytes_received": 50730,
+    "duration_seconds": 160.16,
+    "dest_domain": "gmail.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2487,
+    "bytes_received": 41008,
+    "duration_seconds": 97.55,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1349,
+    "bytes_received": 4044284,
+    "duration_seconds": 39.06,
+    "dest_domain": "cdnjs.cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2643,
+    "bytes_received": 1635718,
+    "duration_seconds": 120.52,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1734,
+    "bytes_received": 52761,
+    "duration_seconds": 56.01,
+    "dest_domain": "outlook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2989,
+    "bytes_received": 3581357,
+    "duration_seconds": 169.83,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1974,
+    "bytes_received": 9844,
+    "duration_seconds": 215.02,
+    "dest_domain": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2241,
+    "bytes_received": 13176,
+    "duration_seconds": 58.8,
+    "dest_domain": "microsoft.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1866,
+    "bytes_received": 8403,
+    "duration_seconds": 55.12,
+    "dest_domain": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2040,
+    "bytes_received": 20417,
+    "duration_seconds": 167.74,
+    "dest_domain": "linkedin.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1797,
+    "bytes_received": 1629,
+    "duration_seconds": 170.01,
+    "dest_domain": "wikipedia.org"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6446,
+    "bytes_received": 25310,
+    "duration_seconds": 147.72,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4720,
+    "bytes_received": 42955,
+    "duration_seconds": 69.12,
+    "dest_domain": "amazon.com",
+    "source_ip": "192.168.1.213"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3169,
+    "bytes_received": 89971,
+    "duration_seconds": 28.97,
+    "dest_ip": "1.0.0.1",
+    "source_ip": "192.168.1.80"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2395,
+    "bytes_received": 42669,
+    "duration_seconds": 178.06,
+    "dest_domain": "1.1.1.1",
+    "source_ip": "192.168.1.33"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4763,
+    "bytes_received": 282884,
+    "duration_seconds": 138.04,
+    "dest_domain": "live.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6774,
+    "bytes_received": 36532,
+    "duration_seconds": 39.84,
+    "dest_domain": "microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4949,
+    "bytes_received": 28291,
+    "duration_seconds": 215.17,
+    "dest_domain": "youtube.com",
+    "source_ip": "192.168.1.156"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3531,
+    "bytes_received": 42318,
+    "duration_seconds": 246.86,
+    "dest_domain": "cnn.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6276,
+    "bytes_received": 21698,
+    "duration_seconds": 224.36,
+    "dest_domain": "1.1.1.1",
+    "source_ip": "192.168.1.158"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3352,
+    "bytes_received": 3323,
+    "duration_seconds": 94.64,
+    "dest_domain": "npmjs.com",
+    "source_ip": "192.168.1.220"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2329,
+    "bytes_received": 21070,
+    "duration_seconds": 264.96,
+    "dest_domain": "cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7024,
+    "bytes_received": 43713,
+    "duration_seconds": 205.28,
+    "dest_domain": "techcrunch.com"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 36,
+    "bytes_received": 237,
+    "duration_seconds": 0.44,
+    "dest_domain": "8.8.8.8",
+    "source_ip": "192.168.1.89"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9267,
+    "bytes_received": 36702,
+    "duration_seconds": 24.22,
+    "dest_domain": "office.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1374,
+    "bytes_received": 41390,
+    "duration_seconds": 173.22,
+    "dest_ip": "172.217.164.142",
+    "source_ip": "192.168.1.44"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4855,
+    "bytes_received": 4245,
+    "duration_seconds": 112.12,
+    "dest_domain": "wikipedia.org"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1913,
+    "bytes_received": 1889104,
+    "duration_seconds": 24.49,
+    "dest_domain": "cnn.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2451,
+    "bytes_received": 1845611,
+    "duration_seconds": 92.49,
+    "dest_domain": "youtube.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1728,
+    "bytes_received": 9713801,
+    "duration_seconds": 181.59,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8976,
+    "bytes_received": 45392,
+    "duration_seconds": 60.79,
+    "dest_domain": "fastly.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7583,
+    "bytes_received": 33258,
+    "duration_seconds": 123.14,
+    "dest_domain": "akamai.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8330,
+    "bytes_received": 21892,
+    "duration_seconds": 228.35,
+    "dest_domain": "live.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8604,
+    "bytes_received": 33876,
+    "duration_seconds": 216.75,
+    "dest_ip": "8.8.8.8",
+    "source_ip": "192.168.1.214"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5970,
+    "bytes_received": 29928,
+    "duration_seconds": 189.21,
+    "dest_domain": "techcrunch.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5859,
+    "bytes_received": 30615,
+    "duration_seconds": 298.26,
+    "dest_ip": "1.0.0.1",
+    "source_ip": "192.168.1.154"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 39,
+    "bytes_received": 98,
+    "duration_seconds": 0.29,
+    "dest_ip": "8.8.8.8",
+    "source_ip": "192.168.1.237"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1511,
+    "bytes_received": 2783414,
+    "duration_seconds": 94.92,
+    "dest_domain": "microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2551,
+    "bytes_received": 5965,
+    "duration_seconds": 169.47,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3040,
+    "bytes_received": 4169965,
+    "duration_seconds": 146.41,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 605,
+    "bytes_received": 43225,
+    "duration_seconds": 157.61,
+    "dest_ip": "172.217.164.142",
+    "source_ip": "192.168.1.133"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1877,
+    "bytes_received": 24501,
+    "duration_seconds": 222.66,
+    "dest_domain": "linkedin.com",
+    "source_ip": "192.168.1.227"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3774,
+    "bytes_received": 17598,
+    "duration_seconds": 69.72,
+    "dest_ip": "1.0.0.1",
+    "source_ip": "192.168.1.19"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4151,
+    "bytes_received": 41200,
+    "duration_seconds": 15.02,
+    "dest_domain": "github.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8588,
+    "bytes_received": 48383,
+    "duration_seconds": 246.91,
+    "dest_domain": "npmjs.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1491,
+    "bytes_received": 3991615,
+    "duration_seconds": 85.47,
+    "dest_domain": "reuters.com"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 69,
+    "bytes_received": 72,
+    "duration_seconds": 0.3,
+    "dest_domain": "fastly.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2746,
+    "bytes_received": 4651348,
+    "duration_seconds": 120.0,
+    "dest_ip": "1.1.1.1",
+    "source_ip": "192.168.1.115"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1330,
+    "bytes_received": 2564,
+    "duration_seconds": 72.96,
+    "dest_domain": "amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1066,
+    "bytes_received": 36328,
+    "duration_seconds": 76.67,
+    "dest_ip": "1.1.1.1",
+    "source_ip": "192.168.1.67"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 79,
+    "bytes_received": 181,
+    "duration_seconds": 0.74,
+    "dest_domain": "outlook.com"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 49,
+    "bytes_received": 152,
+    "duration_seconds": 0.42,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1903,
+    "bytes_received": 11387,
+    "duration_seconds": 16.92,
+    "dest_domain": "drive.google.com"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 73,
+    "bytes_received": 219,
+    "duration_seconds": 0.88,
+    "dest_domain": "drive.google.com",
+    "source_ip": "192.168.1.114"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2834,
+    "bytes_received": 6024631,
+    "duration_seconds": 5.05,
+    "dest_domain": "reuters.com",
+    "source_ip": "192.168.1.47"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4826,
+    "bytes_received": 24662,
+    "duration_seconds": 143.01,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8769,
+    "bytes_received": 2216,
+    "duration_seconds": 225.05,
+    "dest_domain": "amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1310,
+    "bytes_received": 4936330,
+    "duration_seconds": 294.2,
+    "dest_domain": "github.com",
+    "source_ip": "192.168.1.36"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2315,
+    "bytes_received": 8726759,
+    "duration_seconds": 39.12,
+    "dest_domain": "fastly.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3543,
+    "bytes_received": 2061794,
+    "duration_seconds": 38.09,
+    "dest_domain": "techcrunch.com",
+    "source_ip": "192.168.1.190"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6578,
+    "bytes_received": 47921,
+    "duration_seconds": 7.29,
+    "dest_domain": "amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1363,
+    "bytes_received": 3569830,
+    "duration_seconds": 230.73,
+    "dest_ip": "8.8.4.4",
+    "source_ip": "192.168.1.24"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8137,
+    "bytes_received": 28917,
+    "duration_seconds": 194.79,
+    "dest_domain": "techcrunch.com",
+    "source_ip": "192.168.1.187"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1955,
+    "bytes_received": 43758,
+    "duration_seconds": 216.6,
+    "dest_domain": "bbc.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1518,
+    "bytes_received": 53521,
+    "duration_seconds": 92.25,
+    "dest_domain": "teams.microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2596,
+    "bytes_received": 1695573,
+    "duration_seconds": 7.17,
+    "dest_ip": "8.8.8.8",
+    "source_ip": "192.168.1.39"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5524,
+    "bytes_received": 33826,
+    "duration_seconds": 156.33,
+    "dest_domain": "aws.amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5877,
+    "bytes_received": 24384,
+    "duration_seconds": 155.73,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3440,
+    "bytes_received": 3303976,
+    "duration_seconds": 99.79,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2372,
+    "bytes_received": 32603,
+    "duration_seconds": 36.19,
+    "dest_domain": "facebook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8415,
+    "bytes_received": 30405,
+    "duration_seconds": 253.14,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6607,
+    "bytes_received": 6409,
+    "duration_seconds": 80.65,
+    "dest_domain": "office.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6920,
+    "bytes_received": 25446,
+    "duration_seconds": 15.63,
+    "dest_domain": "cdnjs.cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3058,
+    "bytes_received": 5229748,
+    "duration_seconds": 28.35,
+    "dest_ip": "1.1.1.1",
+    "source_ip": "192.168.1.34"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3190,
+    "bytes_received": 10181,
+    "duration_seconds": 160.67,
+    "dest_domain": "reuters.com",
+    "source_ip": "192.168.1.82"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2516,
+    "bytes_received": 11099,
+    "duration_seconds": 185.27,
+    "dest_domain": "dropbox.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7575,
+    "bytes_received": 28927,
+    "duration_seconds": 271.67,
+    "dest_domain": "live.com",
+    "source_ip": "192.168.1.54"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3495,
+    "bytes_received": 28879,
+    "duration_seconds": 99.62,
+    "dest_domain": "reuters.com",
+    "source_ip": "192.168.1.237"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6595,
+    "bytes_received": 47814,
+    "duration_seconds": 202.1,
+    "dest_domain": "drive.google.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7940,
+    "bytes_received": 34935,
+    "duration_seconds": 240.46,
+    "dest_ip": "1.0.0.1",
+    "source_ip": "192.168.1.239"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7760,
+    "bytes_received": 34678,
+    "duration_seconds": 189.89,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1384,
+    "bytes_received": 23480,
+    "duration_seconds": 140.58,
+    "dest_domain": "reddit.com",
+    "source_ip": "192.168.1.127"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9728,
+    "bytes_received": 42570,
+    "duration_seconds": 127.28,
+    "dest_domain": "gmail.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4338,
+    "bytes_received": 2424689,
+    "duration_seconds": 63.57,
+    "dest_ip": "1.0.0.1",
+    "source_ip": "192.168.1.66"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8173,
+    "bytes_received": 41292,
+    "duration_seconds": 75.39,
+    "dest_ip": "8.8.8.8",
+    "source_ip": "192.168.1.29"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3063,
+    "bytes_received": 22484,
+    "duration_seconds": 31.81,
+    "dest_ip": "1.0.0.1",
+    "source_ip": "192.168.1.193"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4049,
+    "bytes_received": 10321,
+    "duration_seconds": 33.63,
+    "dest_domain": "npmjs.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3232,
+    "bytes_received": 35091,
+    "duration_seconds": 294.92,
+    "dest_domain": "zoom.us"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1574,
+    "bytes_received": 1822989,
+    "duration_seconds": 125.19,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1669,
+    "bytes_received": 13880,
+    "duration_seconds": 31.65,
+    "dest_domain": "slack.com",
+    "source_ip": "192.168.1.245"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4444,
+    "bytes_received": 6374741,
+    "duration_seconds": 12.05,
+    "dest_domain": "dropbox.com",
+    "source_ip": "192.168.1.195"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3263,
+    "bytes_received": 4808650,
+    "duration_seconds": 132.23,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8798,
+    "bytes_received": 26674,
+    "duration_seconds": 203.54,
+    "dest_domain": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5008,
+    "bytes_received": 43258,
+    "duration_seconds": 190.16,
+    "dest_domain": "8.8.8.8",
+    "source_ip": "192.168.1.188"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1522,
+    "bytes_received": 34996,
+    "duration_seconds": 14.76,
+    "dest_domain": "live.com",
+    "source_ip": "192.168.1.72"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5129,
+    "bytes_received": 18646,
+    "duration_seconds": 22.06,
+    "dest_domain": "github.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3684,
+    "bytes_received": 1003694,
+    "duration_seconds": 80.66,
+    "dest_domain": "techcrunch.com",
+    "source_ip": "192.168.1.68"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1750,
+    "bytes_received": 35540,
+    "duration_seconds": 29.41,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4917,
+    "bytes_received": 4888,
+    "duration_seconds": 21.43,
+    "dest_domain": "techcrunch.com",
+    "source_ip": "192.168.1.47"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1498,
+    "bytes_received": 447411,
+    "duration_seconds": 254.8,
+    "dest_ip": "172.217.164.110",
+    "source_ip": "192.168.1.190"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3616,
+    "bytes_received": 31612,
+    "duration_seconds": 55.13,
+    "dest_domain": "twitter.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1819,
+    "bytes_received": 30090,
+    "duration_seconds": 4.44,
+    "dest_domain": "zoom.us"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 10146,
+    "bytes_received": 21809,
+    "duration_seconds": 180.21,
+    "dest_domain": "wikipedia.org",
+    "source_ip": "192.168.1.59"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7987,
+    "bytes_received": 29512,
+    "duration_seconds": 120.33,
+    "dest_domain": "bbc.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2211,
+    "bytes_received": 14563,
+    "duration_seconds": 15.95,
+    "dest_domain": "stackoverflow.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6388,
+    "bytes_received": 24571,
+    "duration_seconds": 191.4,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9534,
+    "bytes_received": 5284,
+    "duration_seconds": 49.04,
+    "dest_domain": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1383,
+    "bytes_received": 3940,
+    "duration_seconds": 80.54,
+    "dest_ip": "1.1.1.1",
+    "source_ip": "192.168.1.162"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7478,
+    "bytes_received": 31893,
+    "duration_seconds": 31.73,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4573,
+    "bytes_received": 85263,
+    "duration_seconds": 34.78,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5474,
+    "bytes_received": 41934,
+    "duration_seconds": 233.27,
+    "dest_domain": "facebook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3037,
+    "bytes_received": 5623284,
+    "duration_seconds": 50.79,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6868,
+    "bytes_received": 28754,
+    "duration_seconds": 241.08,
+    "dest_domain": "stackoverflow.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4449,
+    "bytes_received": 1556990,
+    "duration_seconds": 285.07,
+    "dest_ip": "172.217.164.110",
+    "source_ip": "192.168.1.15"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9685,
+    "bytes_received": 25125,
+    "duration_seconds": 271.72,
+    "dest_domain": "live.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1609,
+    "bytes_received": 11668,
+    "duration_seconds": 37.98,
+    "dest_ip": "172.217.164.142",
+    "source_ip": "192.168.1.172"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1753,
+    "bytes_received": 7766096,
+    "duration_seconds": 39.94,
+    "dest_domain": "bbc.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 10146,
+    "bytes_received": 50734,
+    "duration_seconds": 46.67,
+    "dest_domain": "akamai.com",
+    "source_ip": "192.168.1.53"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2575,
+    "bytes_received": 10308724,
+    "duration_seconds": 13.75,
+    "dest_domain": "bbc.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4890,
+    "bytes_received": 26780,
+    "duration_seconds": 288.0,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3573,
+    "bytes_received": 3945825,
+    "duration_seconds": 30.86,
+    "dest_domain": "office.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9387,
+    "bytes_received": 30404,
+    "duration_seconds": 257.55,
+    "dest_domain": "stackoverflow.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9292,
+    "bytes_received": 28364,
+    "duration_seconds": 296.77,
+    "dest_domain": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2269,
+    "bytes_received": 9002378,
+    "duration_seconds": 102.78,
+    "dest_domain": "pypi.org",
+    "source_ip": "192.168.1.87"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 718,
+    "bytes_received": 2178,
+    "duration_seconds": 28.09,
+    "dest_domain": "stackoverflow.com",
+    "source_ip": "192.168.1.197"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1768,
+    "bytes_received": 3270997,
+    "duration_seconds": 208.24,
+    "dest_ip": "1.0.0.1",
+    "source_ip": "192.168.1.57"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2049,
+    "bytes_received": 5703124,
+    "duration_seconds": 267.44,
+    "dest_domain": "aws.amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3927,
+    "bytes_received": 3039,
+    "duration_seconds": 173.4,
+    "dest_domain": "amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2310,
+    "bytes_received": 16490,
+    "duration_seconds": 241.89,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9768,
+    "bytes_received": 5104,
+    "duration_seconds": 257.81,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1691,
+    "bytes_received": 77829,
+    "duration_seconds": 50.03,
+    "dest_domain": "twitter.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5007,
+    "bytes_received": 7688441,
+    "duration_seconds": 12.57,
+    "dest_domain": "amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5247,
+    "bytes_received": 30469,
+    "duration_seconds": 190.73,
+    "dest_domain": "1.0.0.1",
+    "source_ip": "192.168.1.197"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 92,
+    "bytes_received": 227,
+    "duration_seconds": 0.6,
+    "dest_domain": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2704,
+    "bytes_received": 5085,
+    "duration_seconds": 288.66,
+    "dest_domain": "docker.com",
+    "source_ip": "192.168.1.71"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4224,
+    "bytes_received": 13154,
+    "duration_seconds": 30.93,
+    "dest_domain": "dropbox.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1534,
+    "bytes_received": 3272864,
+    "duration_seconds": 221.46,
+    "dest_ip": "8.8.4.4",
+    "source_ip": "192.168.1.155"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2279,
+    "bytes_received": 7327007,
+    "duration_seconds": 114.9,
+    "dest_domain": "cnn.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3119,
+    "bytes_received": 39224,
+    "duration_seconds": 88.77,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7840,
+    "bytes_received": 34483,
+    "duration_seconds": 268.43,
+    "dest_domain": "wikipedia.org"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 66,
+    "bytes_received": 177,
+    "duration_seconds": 0.19,
+    "dest_domain": "amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3404,
+    "bytes_received": 26290,
+    "duration_seconds": 134.12,
+    "dest_domain": "npmjs.com",
+    "source_ip": "192.168.1.89"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5002,
+    "bytes_received": 365773,
+    "duration_seconds": 155.08,
+    "dest_domain": "twitter.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2650,
+    "bytes_received": 6926353,
+    "duration_seconds": 172.8,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4253,
+    "bytes_received": 9874549,
+    "duration_seconds": 231.08,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2278,
+    "bytes_received": 9829032,
+    "duration_seconds": 11.42,
+    "dest_domain": "office.com",
+    "source_ip": "192.168.1.242"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8518,
+    "bytes_received": 27099,
+    "duration_seconds": 143.8,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6103,
+    "bytes_received": 10194,
+    "duration_seconds": 122.31,
+    "dest_domain": "portal.azure.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4516,
+    "bytes_received": 9539,
+    "duration_seconds": 152.27,
+    "dest_domain": "aws.amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4535,
+    "bytes_received": 10268310,
+    "duration_seconds": 197.79,
+    "dest_domain": "facebook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2052,
+    "bytes_received": 29458,
+    "duration_seconds": 175.43,
+    "dest_domain": "docker.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2324,
+    "bytes_received": 38054,
+    "duration_seconds": 186.84,
+    "dest_ip": "1.1.1.1",
+    "source_ip": "192.168.1.163"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4116,
+    "bytes_received": 50077,
+    "duration_seconds": 40.53,
+    "dest_domain": "azure.microsoft.com",
+    "source_ip": "192.168.1.224"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1115,
+    "bytes_received": 19704,
+    "duration_seconds": 230.65,
+    "dest_domain": "google.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 699,
+    "bytes_received": 87784,
+    "duration_seconds": 31.07,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1825,
+    "bytes_received": 38944,
+    "duration_seconds": 296.96,
+    "dest_domain": "amazon.com",
+    "source_ip": "192.168.1.179"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8417,
+    "bytes_received": 45207,
+    "duration_seconds": 273.85,
+    "dest_domain": "github.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4719,
+    "bytes_received": 7802274,
+    "duration_seconds": 242.25,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4302,
+    "bytes_received": 30005,
+    "duration_seconds": 154.67,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1482,
+    "bytes_received": 1155869,
+    "duration_seconds": 256.63,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6559,
+    "bytes_received": 23688,
+    "duration_seconds": 69.31,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8871,
+    "bytes_received": 25035,
+    "duration_seconds": 272.34,
+    "dest_domain": "dropbox.com",
+    "source_ip": "192.168.1.72"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 102,
+    "bytes_received": 216,
+    "duration_seconds": 0.48,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3063,
+    "bytes_received": 41179,
+    "duration_seconds": 76.28,
+    "dest_ip": "1.0.0.1",
+    "source_ip": "192.168.1.212"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9664,
+    "bytes_received": 35363,
+    "duration_seconds": 282.2,
+    "dest_domain": "linkedin.com",
+    "source_ip": "192.168.1.201"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 10072,
+    "bytes_received": 39725,
+    "duration_seconds": 91.57,
+    "dest_ip": "1.1.1.1",
+    "source_ip": "192.168.1.80"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 82,
+    "bytes_received": 234,
+    "duration_seconds": 0.83,
+    "dest_domain": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3047,
+    "bytes_received": 41368,
+    "duration_seconds": 4.71,
+    "dest_domain": "reddit.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1019,
+    "bytes_received": 38411,
+    "duration_seconds": 83.63,
+    "dest_domain": "cdnjs.cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4315,
+    "bytes_received": 9574666,
+    "duration_seconds": 294.55,
+    "dest_domain": "akamai.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2569,
+    "bytes_received": 1984,
+    "duration_seconds": 270.93,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3365,
+    "bytes_received": 22030,
+    "duration_seconds": 62.26,
+    "dest_domain": "microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6576,
+    "bytes_received": 10119,
+    "duration_seconds": 240.92,
+    "dest_ip": "172.217.164.142",
+    "source_ip": "192.168.1.99"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4860,
+    "bytes_received": 2476469,
+    "duration_seconds": 269.42,
+    "dest_domain": "youtube.com"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 74,
+    "bytes_received": 203,
+    "duration_seconds": 0.95,
+    "dest_ip": "8.8.4.4",
+    "source_ip": "192.168.1.103"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5809,
+    "bytes_received": 10953,
+    "duration_seconds": 192.45,
+    "dest_domain": "kubernetes.io"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 637,
+    "bytes_received": 23490,
+    "duration_seconds": 38.36,
+    "dest_domain": "cdnjs.cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4787,
+    "bytes_received": 4421364,
+    "duration_seconds": 94.78,
+    "dest_domain": "wikipedia.org"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4948,
+    "bytes_received": 28926,
+    "duration_seconds": 142.63,
+    "dest_ip": "172.217.164.110",
+    "source_ip": "192.168.1.232"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2474,
+    "bytes_received": 46749,
+    "duration_seconds": 150.14,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4770,
+    "bytes_received": 31454,
+    "duration_seconds": 22.97,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1790,
+    "bytes_received": 2631720,
+    "duration_seconds": 275.14,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4610,
+    "bytes_received": 26065,
+    "duration_seconds": 76.58,
+    "dest_domain": "outlook.com",
+    "source_ip": "192.168.1.56"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 288,
+    "bytes_received": 25857,
+    "duration_seconds": 56.24,
+    "dest_ip": "8.8.4.4",
+    "source_ip": "192.168.1.113"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6455,
+    "bytes_received": 35097,
+    "duration_seconds": 122.81,
+    "dest_domain": "twitter.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4757,
+    "bytes_received": 7033226,
+    "duration_seconds": 77.87,
+    "dest_domain": "wikipedia.org"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2607,
+    "bytes_received": 7200033,
+    "duration_seconds": 257.5,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8700,
+    "bytes_received": 30474,
+    "duration_seconds": 257.24,
+    "dest_domain": "wikipedia.org"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4617,
+    "bytes_received": 37617,
+    "duration_seconds": 89.0,
+    "dest_domain": "github.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1517,
+    "bytes_received": 4193638,
+    "duration_seconds": 170.92,
+    "dest_domain": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8610,
+    "bytes_received": 32985,
+    "duration_seconds": 96.68,
+    "dest_domain": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 265,
+    "bytes_received": 37766,
+    "duration_seconds": 45.36,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 104,
+    "bytes_received": 113,
+    "duration_seconds": 0.35,
+    "dest_domain": "1.1.1.1",
+    "source_ip": "192.168.1.56"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5231,
+    "bytes_received": 50900,
+    "duration_seconds": 32.66,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9971,
+    "bytes_received": 6997,
+    "duration_seconds": 207.86,
+    "dest_ip": "172.217.164.110",
+    "source_ip": "192.168.1.126"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3848,
+    "bytes_received": 34574,
+    "duration_seconds": 224.66,
+    "dest_domain": "microsoft.com",
+    "source_ip": "192.168.1.2"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4530,
+    "bytes_received": 33119,
+    "duration_seconds": 145.77,
+    "dest_domain": "amazon.com",
+    "source_ip": "192.168.1.84"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4643,
+    "bytes_received": 5858061,
+    "duration_seconds": 173.09,
+    "dest_domain": "twitter.com",
+    "source_ip": "192.168.1.238"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1466,
+    "bytes_received": 23855,
+    "duration_seconds": 288.07,
+    "dest_domain": "cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2399,
+    "bytes_received": 2932387,
+    "duration_seconds": 122.45,
+    "dest_domain": "microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2050,
+    "bytes_received": 3792167,
+    "duration_seconds": 72.43,
+    "dest_domain": "slack.com",
+    "source_ip": "192.168.1.71"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5412,
+    "bytes_received": 36607,
+    "duration_seconds": 189.73,
+    "dest_ip": "8.8.4.4",
+    "source_ip": "192.168.1.6"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9569,
+    "bytes_received": 10219,
+    "duration_seconds": 226.89,
+    "dest_domain": "dropbox.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1623,
+    "bytes_received": 86141,
+    "duration_seconds": 49.7,
+    "dest_ip": "172.217.164.142",
+    "source_ip": "192.168.1.26"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4277,
+    "bytes_received": 42471,
+    "duration_seconds": 272.38,
+    "dest_domain": "aws.amazon.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2390,
+    "bytes_received": 28447,
+    "duration_seconds": 50.69,
+    "dest_domain": "akamai.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2536,
+    "bytes_received": 8985298,
+    "duration_seconds": 173.45,
+    "dest_domain": "akamai.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1894,
+    "bytes_received": 7848662,
+    "duration_seconds": 6.27,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4042,
+    "bytes_received": 6141930,
+    "duration_seconds": 220.95,
+    "dest_domain": "reuters.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 647,
+    "bytes_received": 28346,
+    "duration_seconds": 44.01,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3780,
+    "bytes_received": 3123,
+    "duration_seconds": 17.46,
+    "dest_domain": "dropbox.com",
+    "source_ip": "192.168.1.72"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7829,
+    "bytes_received": 46187,
+    "duration_seconds": 270.93,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2626,
+    "bytes_received": 5268,
+    "duration_seconds": 148.59,
+    "dest_domain": "zoom.us"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4946,
+    "bytes_received": 10385356,
+    "duration_seconds": 90.26,
+    "dest_domain": "kubernetes.io",
+    "source_ip": "192.168.1.90"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1587,
+    "bytes_received": 87142,
+    "duration_seconds": 49.82,
+    "dest_ip": "208.67.222.222",
+    "source_ip": "192.168.1.20"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3679,
+    "bytes_received": 6820722,
+    "duration_seconds": 176.62,
+    "dest_domain": "fastly.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1492,
+    "bytes_received": 2060,
+    "duration_seconds": 124.91,
+    "dest_ip": "1.0.0.1",
+    "source_ip": "192.168.1.93"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8868,
+    "bytes_received": 14121,
+    "duration_seconds": 80.61,
+    "dest_domain": "youtube.com",
+    "source_ip": "192.168.1.247"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1285,
+    "bytes_received": 54170,
+    "duration_seconds": 58.36,
+    "dest_domain": "microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8282,
+    "bytes_received": 13684,
+    "duration_seconds": 121.22,
+    "dest_domain": "office.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1900,
+    "bytes_received": 882789,
+    "duration_seconds": 191.81,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4870,
+    "bytes_received": 8209796,
+    "duration_seconds": 162.17,
+    "dest_domain": "portal.azure.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 854,
+    "bytes_received": 6643,
+    "duration_seconds": 44.45,
+    "dest_domain": "drive.google.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2490,
+    "bytes_received": 3556527,
+    "duration_seconds": 88.83,
+    "dest_domain": "youtube.com",
+    "source_ip": "192.168.1.214"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8803,
+    "bytes_received": 17914,
+    "duration_seconds": 177.65,
+    "dest_domain": "azure.microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4653,
+    "bytes_received": 19204,
+    "duration_seconds": 293.93,
+    "dest_domain": "kubernetes.io",
+    "source_ip": "192.168.1.203"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7741,
+    "bytes_received": 11101,
+    "duration_seconds": 200.23,
+    "dest_domain": "zoom.us"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4977,
+    "bytes_received": 1037104,
+    "duration_seconds": 166.69,
+    "dest_domain": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9134,
+    "bytes_received": 29706,
+    "duration_seconds": 135.71,
+    "dest_domain": "8.8.8.8",
+    "source_ip": "192.168.1.232"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3023,
+    "bytes_received": 6428133,
+    "duration_seconds": 242.61,
+    "dest_domain": "npmjs.com",
+    "source_ip": "192.168.1.70"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9205,
+    "bytes_received": 37444,
+    "duration_seconds": 36.71,
+    "dest_domain": "portal.azure.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 692,
+    "bytes_received": 35246,
+    "duration_seconds": 26.06,
+    "dest_domain": "fastly.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4272,
+    "bytes_received": 12669,
+    "duration_seconds": 49.1,
+    "dest_domain": "bbc.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4710,
+    "bytes_received": 48522,
+    "duration_seconds": 104.86,
+    "dest_domain": "microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7891,
+    "bytes_received": 31777,
+    "duration_seconds": 166.34,
+    "dest_domain": "1.1.1.1",
+    "source_ip": "192.168.1.119"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7368,
+    "bytes_received": 32876,
+    "duration_seconds": 45.54,
+    "dest_domain": "npmjs.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4969,
+    "bytes_received": 5162411,
+    "duration_seconds": 252.82,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3665,
+    "bytes_received": 8659573,
+    "duration_seconds": 283.4,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6117,
+    "bytes_received": 17109,
+    "duration_seconds": 101.35,
+    "dest_domain": "pypi.org",
+    "source_ip": "192.168.1.71"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 10034,
+    "bytes_received": 34084,
+    "duration_seconds": 85.49,
+    "dest_domain": "cnn.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9628,
+    "bytes_received": 48920,
+    "duration_seconds": 295.5,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3330,
+    "bytes_received": 3977520,
+    "duration_seconds": 223.61,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 104,
+    "bytes_received": 80,
+    "duration_seconds": 0.1,
+    "dest_domain": "github.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1558,
+    "bytes_received": 37773,
+    "duration_seconds": 148.84,
+    "dest_domain": "cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3802,
+    "bytes_received": 34495,
+    "duration_seconds": 246.75,
+    "dest_domain": "kubernetes.io"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 35,
+    "bytes_received": 252,
+    "duration_seconds": 0.3,
+    "dest_domain": "portal.azure.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9737,
+    "bytes_received": 37898,
+    "duration_seconds": 263.98,
+    "dest_domain": "docker.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4704,
+    "bytes_received": 5772085,
+    "duration_seconds": 133.5,
+    "dest_domain": "azure.microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6385,
+    "bytes_received": 30744,
+    "duration_seconds": 170.9,
+    "dest_ip": "1.1.1.1",
+    "source_ip": "192.168.1.208"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2940,
+    "bytes_received": 6764,
+    "duration_seconds": 277.65,
+    "dest_domain": "twitter.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 477,
+    "bytes_received": 65966,
+    "duration_seconds": 4.03,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2257,
+    "bytes_received": 15659,
+    "duration_seconds": 133.21,
+    "dest_ip": "172.217.164.142",
+    "source_ip": "192.168.1.39"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4301,
+    "bytes_received": 62269,
+    "duration_seconds": 18.98,
+    "dest_domain": "kubernetes.io"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9965,
+    "bytes_received": 48875,
+    "duration_seconds": 183.79,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1899,
+    "bytes_received": 47271,
+    "duration_seconds": 39.78,
+    "dest_domain": "dropbox.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2710,
+    "bytes_received": 18586,
+    "duration_seconds": 194.47,
+    "dest_domain": "1.1.1.1",
+    "source_ip": "192.168.1.83"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4285,
+    "bytes_received": 6286357,
+    "duration_seconds": 184.43,
+    "dest_domain": "1.0.0.1",
+    "source_ip": "192.168.1.102"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4151,
+    "bytes_received": 37502,
+    "duration_seconds": 260.31,
+    "dest_domain": "bbc.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2923,
+    "bytes_received": 9949,
+    "duration_seconds": 125.08,
+    "dest_domain": "google.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5475,
+    "bytes_received": 7435,
+    "duration_seconds": 83.97,
+    "dest_ip": "8.8.4.4",
+    "source_ip": "192.168.1.123"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6036,
+    "bytes_received": 2386,
+    "duration_seconds": 59.44,
+    "dest_domain": "zoom.us",
+    "source_ip": "192.168.1.242"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1351,
+    "bytes_received": 8772,
+    "duration_seconds": 70.54,
+    "dest_domain": "cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9503,
+    "bytes_received": 40878,
+    "duration_seconds": 141.78,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1061,
+    "bytes_received": 92321,
+    "duration_seconds": 43.95,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1639,
+    "bytes_received": 5449,
+    "duration_seconds": 42.17,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 103,
+    "bytes_received": 156,
+    "duration_seconds": 0.23,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4024,
+    "bytes_received": 4870444,
+    "duration_seconds": 146.0,
+    "dest_ip": "8.8.4.4",
+    "source_ip": "192.168.1.121"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4096,
+    "bytes_received": 17803,
+    "duration_seconds": 99.43,
+    "dest_ip": "172.217.164.142",
+    "source_ip": "192.168.1.71"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7641,
+    "bytes_received": 13540,
+    "duration_seconds": 139.25,
+    "dest_domain": "reuters.com",
+    "source_ip": "192.168.1.144"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4245,
+    "bytes_received": 4841,
+    "duration_seconds": 206.39,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6387,
+    "bytes_received": 27110,
+    "duration_seconds": 101.93,
+    "dest_domain": "stackoverflow.com",
+    "source_ip": "192.168.1.214"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3465,
+    "bytes_received": 90437,
+    "duration_seconds": 8.78,
+    "dest_domain": "linkedin.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 656,
+    "bytes_received": 13745,
+    "duration_seconds": 52.93,
+    "dest_domain": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3855,
+    "bytes_received": 3971255,
+    "duration_seconds": 176.39,
+    "dest_domain": "zoom.us",
+    "source_ip": "192.168.1.132"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8433,
+    "bytes_received": 49904,
+    "duration_seconds": 178.6,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2750,
+    "bytes_received": 49994,
+    "duration_seconds": 178.1,
+    "dest_domain": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3938,
+    "bytes_received": 2179729,
+    "duration_seconds": 196.39,
+    "dest_domain": "kubernetes.io"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 572,
+    "bytes_received": 38153,
+    "duration_seconds": 151.95,
+    "dest_domain": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1628,
+    "bytes_received": 34917,
+    "duration_seconds": 247.91,
+    "dest_domain": "aws.amazon.com",
+    "source_ip": "192.168.1.239"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7843,
+    "bytes_received": 27725,
+    "duration_seconds": 242.93,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2421,
+    "bytes_received": 55902,
+    "duration_seconds": 52.99,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7108,
+    "bytes_received": 2716,
+    "duration_seconds": 90.77,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3127,
+    "bytes_received": 16978,
+    "duration_seconds": 133.45,
+    "dest_domain": "microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6046,
+    "bytes_received": 5127,
+    "duration_seconds": 30.7,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7885,
+    "bytes_received": 49870,
+    "duration_seconds": 190.09,
+    "dest_domain": "google.com",
+    "source_ip": "192.168.1.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8031,
+    "bytes_received": 29298,
+    "duration_seconds": 121.51,
+    "dest_domain": "youtube.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1304,
+    "bytes_received": 9871382,
+    "duration_seconds": 28.76,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1454,
+    "bytes_received": 1038,
+    "duration_seconds": 221.76,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 808,
+    "bytes_received": 17608,
+    "duration_seconds": 118.79,
+    "dest_domain": "cdnjs.cloudflare.com",
+    "source_ip": "192.168.1.24"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3202,
+    "bytes_received": 27950,
+    "duration_seconds": 71.16,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 84,
+    "bytes_received": 223,
+    "duration_seconds": 0.31,
+    "dest_domain": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4577,
+    "bytes_received": 47301,
+    "duration_seconds": 61.08,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5666,
+    "bytes_received": 3931,
+    "duration_seconds": 264.6,
+    "dest_domain": "kubernetes.io"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6728,
+    "bytes_received": 35453,
+    "duration_seconds": 27.41,
+    "dest_domain": "office.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8639,
+    "bytes_received": 27919,
+    "duration_seconds": 277.19,
+    "dest_domain": "kubernetes.io"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8910,
+    "bytes_received": 46357,
+    "duration_seconds": 219.39,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4065,
+    "bytes_received": 11142,
+    "duration_seconds": 27.59,
+    "dest_domain": "dropbox.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1719,
+    "bytes_received": 1556025,
+    "duration_seconds": 263.36,
+    "dest_domain": "dropbox.com",
+    "source_ip": "192.168.1.62"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6689,
+    "bytes_received": 4262,
+    "duration_seconds": 10.27,
+    "dest_domain": "techcrunch.com",
+    "source_ip": "192.168.1.43"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7282,
+    "bytes_received": 49505,
+    "duration_seconds": 45.47,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4599,
+    "bytes_received": 42970,
+    "duration_seconds": 27.73,
+    "dest_domain": "bbc.com",
+    "source_ip": "192.168.1.215"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 110,
+    "bytes_received": 133,
+    "duration_seconds": 0.67,
+    "dest_domain": "docker.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3144,
+    "bytes_received": 50812,
+    "duration_seconds": 46.4,
+    "dest_domain": "office.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3071,
+    "bytes_received": 34239,
+    "duration_seconds": 83.46,
+    "dest_domain": "twitter.com"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 73,
+    "bytes_received": 222,
+    "duration_seconds": 0.13,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4981,
+    "bytes_received": 8357634,
+    "duration_seconds": 182.06,
+    "dest_domain": "reddit.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1363,
+    "bytes_received": 51094,
+    "duration_seconds": 39.49,
+    "dest_domain": "fastly.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7499,
+    "bytes_received": 35637,
+    "duration_seconds": 51.64,
+    "dest_ip": "208.67.222.222",
+    "source_ip": "192.168.1.183"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3437,
+    "bytes_received": 5573000,
+    "duration_seconds": 138.3,
+    "dest_ip": "172.217.164.142",
+    "source_ip": "192.168.1.238"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 525,
+    "bytes_received": 48949,
+    "duration_seconds": 132.78,
+    "dest_domain": "google.com",
+    "source_ip": "192.168.1.250"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9208,
+    "bytes_received": 2694,
+    "duration_seconds": 201.9,
+    "dest_ip": "8.8.8.8",
+    "source_ip": "192.168.1.119"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3414,
+    "bytes_received": 4964954,
+    "duration_seconds": 8.45,
+    "dest_domain": "bbc.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4801,
+    "bytes_received": 50644,
+    "duration_seconds": 19.86,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2891,
+    "bytes_received": 955297,
+    "duration_seconds": 58.53,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2434,
+    "bytes_received": 88130,
+    "duration_seconds": 49.72,
+    "dest_domain": "google.com",
+    "source_ip": "192.168.1.20"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4347,
+    "bytes_received": 73295,
+    "duration_seconds": 51.73,
+    "dest_domain": "bbc.com",
+    "source_ip": "192.168.1.44"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5895,
+    "bytes_received": 22395,
+    "duration_seconds": 73.4,
+    "dest_ip": "172.217.164.110",
+    "source_ip": "192.168.1.126"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4140,
+    "bytes_received": 8802302,
+    "duration_seconds": 99.69,
+    "dest_domain": "gmail.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2918,
+    "bytes_received": 44619,
+    "duration_seconds": 176.23,
+    "dest_domain": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7347,
+    "bytes_received": 17802,
+    "duration_seconds": 32.35,
+    "dest_domain": "cdnjs.cloudflare.com",
+    "source_ip": "192.168.1.142"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4404,
+    "bytes_received": 43331,
+    "duration_seconds": 49.05,
+    "dest_domain": "npmjs.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1264,
+    "bytes_received": 5072735,
+    "duration_seconds": 215.35,
+    "dest_domain": "fastly.com",
+    "source_ip": "192.168.1.38"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5392,
+    "bytes_received": 27916,
+    "duration_seconds": 143.05,
+    "dest_domain": "docker.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4047,
+    "bytes_received": 13445,
+    "duration_seconds": 114.39,
+    "dest_domain": "azure.microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4995,
+    "bytes_received": 22056,
+    "duration_seconds": 49.8,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1871,
+    "bytes_received": 36724,
+    "duration_seconds": 20.65,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2604,
+    "bytes_received": 9059,
+    "duration_seconds": 273.01,
+    "dest_domain": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2446,
+    "bytes_received": 5505957,
+    "duration_seconds": 277.48,
+    "dest_domain": "drive.google.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2226,
+    "bytes_received": 66965,
+    "duration_seconds": 8.53,
+    "dest_domain": "wikipedia.org"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1905,
+    "bytes_received": 19100,
+    "duration_seconds": 49.67,
+    "dest_domain": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6785,
+    "bytes_received": 44767,
+    "duration_seconds": 117.56,
+    "dest_domain": "facebook.com",
+    "source_ip": "192.168.1.66"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 596,
+    "bytes_received": 36663,
+    "duration_seconds": 48.39,
+    "dest_domain": "akamai.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1339,
+    "bytes_received": 27824,
+    "duration_seconds": 296.7,
+    "dest_ip": "8.8.8.8",
+    "source_ip": "192.168.1.240"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5861,
+    "bytes_received": 47718,
+    "duration_seconds": 215.83,
+    "dest_domain": "reuters.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3439,
+    "bytes_received": 9378792,
+    "duration_seconds": 270.96,
+    "dest_ip": "1.1.1.1",
+    "source_ip": "192.168.1.90"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9714,
+    "bytes_received": 14288,
+    "duration_seconds": 59.65,
+    "dest_domain": "dropbox.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1892,
+    "bytes_received": 2691943,
+    "duration_seconds": 26.51,
+    "dest_domain": "reddit.com",
+    "source_ip": "192.168.1.239"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 527,
+    "bytes_received": 79644,
+    "duration_seconds": 16.37,
+    "dest_domain": "portal.azure.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3028,
+    "bytes_received": 37123,
+    "duration_seconds": 70.31,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4726,
+    "bytes_received": 47462,
+    "duration_seconds": 224.47,
+    "dest_domain": "npmjs.com",
+    "source_ip": "192.168.1.115"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8534,
+    "bytes_received": 25181,
+    "duration_seconds": 182.01,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1811,
+    "bytes_received": 51075,
+    "duration_seconds": 144.15,
+    "dest_domain": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3365,
+    "bytes_received": 5547713,
+    "duration_seconds": 263.98,
+    "dest_domain": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2639,
+    "bytes_received": 5462401,
+    "duration_seconds": 236.18,
+    "dest_domain": "reuters.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3276,
+    "bytes_received": 9797660,
+    "duration_seconds": 243.2,
+    "dest_ip": "1.1.1.1",
+    "source_ip": "192.168.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3039,
+    "bytes_received": 28131,
+    "duration_seconds": 220.94,
+    "dest_domain": "bbc.com",
+    "source_ip": "192.168.1.235"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2430,
+    "bytes_received": 43837,
+    "duration_seconds": 47.25,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3521,
+    "bytes_received": 1865,
+    "duration_seconds": 189.77,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4611,
+    "bytes_received": 21396,
+    "duration_seconds": 25.24,
+    "dest_domain": "office.com",
+    "source_ip": "192.168.1.181"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7836,
+    "bytes_received": 2114,
+    "duration_seconds": 277.17,
+    "dest_domain": "fastly.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1436,
+    "bytes_received": 3312331,
+    "duration_seconds": 247.03,
+    "dest_ip": "1.0.0.1",
+    "source_ip": "192.168.1.65"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6908,
+    "bytes_received": 25683,
+    "duration_seconds": 162.06,
+    "dest_ip": "8.8.4.4",
+    "source_ip": "192.168.1.235"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2930,
+    "bytes_received": 9090616,
+    "duration_seconds": 177.19,
+    "dest_domain": "dropbox.com",
+    "source_ip": "192.168.1.148"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5635,
+    "bytes_received": 48454,
+    "duration_seconds": 206.65,
+    "dest_domain": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 676,
+    "bytes_received": 39372,
+    "duration_seconds": 102.03,
+    "dest_domain": "gmail.com",
+    "source_ip": "192.168.1.162"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3410,
+    "bytes_received": 1158,
+    "duration_seconds": 224.94,
+    "dest_domain": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9395,
+    "bytes_received": 31938,
+    "duration_seconds": 71.83,
+    "dest_domain": "zoom.us",
+    "source_ip": "192.168.1.144"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5473,
+    "bytes_received": 37096,
+    "duration_seconds": 16.37,
+    "dest_domain": "gmail.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2835,
+    "bytes_received": 236706,
+    "duration_seconds": 85.78,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6083,
+    "bytes_received": 37429,
+    "duration_seconds": 32.48,
+    "dest_domain": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5877,
+    "bytes_received": 21652,
+    "duration_seconds": 36.8,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 57,
+    "bytes_received": 220,
+    "duration_seconds": 0.45,
+    "dest_domain": "techcrunch.com",
+    "source_ip": "192.168.1.249"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4666,
+    "bytes_received": 9973125,
+    "duration_seconds": 157.16,
+    "dest_ip": "8.8.4.4",
+    "source_ip": "192.168.1.53"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9878,
+    "bytes_received": 21232,
+    "duration_seconds": 84.01,
+    "dest_domain": "cnn.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2201,
+    "bytes_received": 76146,
+    "duration_seconds": 40.8,
+    "dest_domain": "twitter.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2829,
+    "bytes_received": 68132,
+    "duration_seconds": 57.93,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2798,
+    "bytes_received": 61738,
+    "duration_seconds": 41.65,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4936,
+    "bytes_received": 45020,
+    "duration_seconds": 298.49,
+    "dest_domain": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4726,
+    "bytes_received": 7153789,
+    "duration_seconds": 78.1,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2548,
+    "bytes_received": 5602269,
+    "duration_seconds": 57.73,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6212,
+    "bytes_received": 47369,
+    "duration_seconds": 93.76,
+    "dest_domain": "pypi.org"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3876,
+    "bytes_received": 15785,
+    "duration_seconds": 229.54,
+    "dest_domain": "amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3792,
+    "bytes_received": 10079860,
+    "duration_seconds": 271.11,
+    "dest_domain": "azure.microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9032,
+    "bytes_received": 15663,
+    "duration_seconds": 279.16,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8937,
+    "bytes_received": 11815,
+    "duration_seconds": 272.63,
+    "dest_ip": "1.0.0.1",
+    "source_ip": "192.168.1.112"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7718,
+    "bytes_received": 27934,
+    "duration_seconds": 216.8,
+    "dest_domain": "techcrunch.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1996,
+    "bytes_received": 607932,
+    "duration_seconds": 82.52,
+    "dest_domain": "gmail.com",
+    "source_ip": "192.168.1.7"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 79,
+    "bytes_received": 99,
+    "duration_seconds": 0.66,
+    "dest_domain": "8.8.4.4",
+    "source_ip": "192.168.1.187"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3300,
+    "bytes_received": 25904,
+    "duration_seconds": 2.91,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1722,
+    "bytes_received": 39026,
+    "duration_seconds": 217.76,
+    "dest_domain": "reuters.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7806,
+    "bytes_received": 25451,
+    "duration_seconds": 153.63,
+    "dest_domain": "linkedin.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7304,
+    "bytes_received": 36731,
+    "duration_seconds": 244.42,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1394,
+    "bytes_received": 44610,
+    "duration_seconds": 22.71,
+    "dest_domain": "pypi.org"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 57,
+    "bytes_received": 186,
+    "duration_seconds": 0.57,
+    "dest_domain": "bbc.com",
+    "source_ip": "192.168.1.246"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 451,
+    "bytes_received": 35415,
+    "duration_seconds": 48.2,
+    "dest_domain": "stackoverflow.com",
+    "source_ip": "192.168.1.22"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5802,
+    "bytes_received": 26840,
+    "duration_seconds": 143.04,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2237,
+    "bytes_received": 2690533,
+    "duration_seconds": 37.46,
+    "dest_domain": "techcrunch.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6645,
+    "bytes_received": 13098,
+    "duration_seconds": 256.74,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2073,
+    "bytes_received": 16581,
+    "duration_seconds": 40.39,
+    "dest_domain": "teams.microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4910,
+    "bytes_received": 38580,
+    "duration_seconds": 279.63,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4061,
+    "bytes_received": 3292830,
+    "duration_seconds": 275.73,
+    "dest_domain": "linkedin.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8237,
+    "bytes_received": 10551,
+    "duration_seconds": 256.91,
+    "dest_domain": "outlook.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3763,
+    "bytes_received": 87576,
+    "duration_seconds": 12.66,
+    "dest_domain": "aws.amazon.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3134,
+    "bytes_received": 13177,
+    "duration_seconds": 30.25,
+    "dest_domain": "portal.azure.com",
+    "source_ip": "192.168.1.114"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 5074,
+    "bytes_received": 95356,
+    "duration_seconds": 24.92,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5574,
+    "bytes_received": 22249,
+    "duration_seconds": 243.79,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1072,
+    "bytes_received": 6983371,
+    "duration_seconds": 75.58,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6904,
+    "bytes_received": 26847,
+    "duration_seconds": 65.3,
+    "dest_domain": "live.com",
+    "source_ip": "192.168.1.75"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2582,
+    "bytes_received": 9362,
+    "duration_seconds": 75.1,
+    "dest_domain": "cnn.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4871,
+    "bytes_received": 8889223,
+    "duration_seconds": 71.79,
+    "dest_domain": "fastly.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3564,
+    "bytes_received": 561325,
+    "duration_seconds": 60.96,
+    "dest_domain": "teams.microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2933,
+    "bytes_received": 6145623,
+    "duration_seconds": 82.63,
+    "dest_domain": "aws.amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3435,
+    "bytes_received": 35077,
+    "duration_seconds": 110.56,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4447,
+    "bytes_received": 4954633,
+    "duration_seconds": 94.04,
+    "dest_domain": "kubernetes.io",
+    "source_ip": "192.168.1.127"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9330,
+    "bytes_received": 18856,
+    "duration_seconds": 21.0,
+    "dest_domain": "reuters.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1087,
+    "bytes_received": 32654,
+    "duration_seconds": 205.8,
+    "dest_domain": "docker.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4424,
+    "bytes_received": 30898,
+    "duration_seconds": 20.22,
+    "dest_domain": "drive.google.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 821,
+    "bytes_received": 8229,
+    "duration_seconds": 270.49,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8951,
+    "bytes_received": 49223,
+    "duration_seconds": 211.04,
+    "dest_domain": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2527,
+    "bytes_received": 21141,
+    "duration_seconds": 242.44,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8833,
+    "bytes_received": 21717,
+    "duration_seconds": 235.64,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8459,
+    "bytes_received": 48036,
+    "duration_seconds": 259.92,
+    "dest_domain": "outlook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9449,
+    "bytes_received": 12156,
+    "duration_seconds": 36.79,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 758,
+    "bytes_received": 31033,
+    "duration_seconds": 187.99,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3993,
+    "bytes_received": 9436573,
+    "duration_seconds": 204.4,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4224,
+    "bytes_received": 3137749,
+    "duration_seconds": 131.79,
+    "dest_domain": "twitter.com",
+    "source_ip": "192.168.1.14"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2881,
+    "bytes_received": 9763,
+    "duration_seconds": 4.09,
+    "dest_domain": "zoom.us"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1740,
+    "bytes_received": 72016,
+    "duration_seconds": 45.64,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 113,
+    "bytes_received": 115,
+    "duration_seconds": 0.12,
+    "dest_domain": "wikipedia.org"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2163,
+    "bytes_received": 9016614,
+    "duration_seconds": 205.76,
+    "dest_domain": "npmjs.com",
+    "source_ip": "192.168.1.203"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8023,
+    "bytes_received": 18858,
+    "duration_seconds": 34.17,
+    "dest_domain": "cloudflare.com",
+    "source_ip": "192.168.1.32"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1694,
+    "bytes_received": 60440,
+    "duration_seconds": 48.02,
+    "dest_domain": "outlook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1487,
+    "bytes_received": 6715234,
+    "duration_seconds": 173.38,
+    "dest_domain": "microsoft.com",
+    "source_ip": "192.168.1.13"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 74,
+    "bytes_received": 106,
+    "duration_seconds": 0.64,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 51,
+    "bytes_received": 138,
+    "duration_seconds": 0.7,
+    "dest_domain": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1082,
+    "bytes_received": 4928,
+    "duration_seconds": 96.88,
+    "dest_ip": "1.0.0.1",
+    "source_ip": "192.168.1.20"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3888,
+    "bytes_received": 668675,
+    "duration_seconds": 158.69,
+    "dest_domain": "drive.google.com",
+    "source_ip": "192.168.1.162"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8820,
+    "bytes_received": 2515,
+    "duration_seconds": 25.25,
+    "dest_domain": "gmail.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4275,
+    "bytes_received": 7555580,
+    "duration_seconds": 279.86,
+    "dest_domain": "cdnjs.cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2761,
+    "bytes_received": 9226,
+    "duration_seconds": 150.91,
+    "dest_domain": "teams.microsoft.com",
+    "source_ip": "192.168.1.105"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1519,
+    "bytes_received": 72431,
+    "duration_seconds": 12.23,
+    "dest_ip": "8.8.4.4",
+    "source_ip": "192.168.1.104"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4923,
+    "bytes_received": 6509,
+    "duration_seconds": 58.94,
+    "dest_domain": "linkedin.com",
+    "source_ip": "192.168.1.241"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 53,
+    "bytes_received": 217,
+    "duration_seconds": 0.51,
+    "dest_domain": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2586,
+    "bytes_received": 42705,
+    "duration_seconds": 110.75,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 104,
+    "bytes_received": 229,
+    "duration_seconds": 0.77,
+    "dest_ip": "8.8.4.4",
+    "source_ip": "192.168.1.71"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1668,
+    "bytes_received": 42316,
+    "duration_seconds": 124.23,
+    "dest_ip": "1.1.1.1",
+    "source_ip": "192.168.1.106"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3196,
+    "bytes_received": 15658,
+    "duration_seconds": 105.64,
+    "dest_domain": "drive.google.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3513,
+    "bytes_received": 22676,
+    "duration_seconds": 126.81,
+    "dest_ip": "1.0.0.1",
+    "source_ip": "192.168.1.62"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8183,
+    "bytes_received": 26083,
+    "duration_seconds": 97.08,
+    "dest_domain": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9862,
+    "bytes_received": 39157,
+    "duration_seconds": 182.7,
+    "dest_domain": "techcrunch.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6582,
+    "bytes_received": 44715,
+    "duration_seconds": 169.1,
+    "dest_ip": "172.217.164.110",
+    "source_ip": "192.168.1.183"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2546,
+    "bytes_received": 55245,
+    "duration_seconds": 11.64,
+    "dest_domain": "cnn.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1426,
+    "bytes_received": 37591,
+    "duration_seconds": 207.53,
+    "dest_domain": "google.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7322,
+    "bytes_received": 33412,
+    "duration_seconds": 276.87,
+    "dest_domain": "outlook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9029,
+    "bytes_received": 9494,
+    "duration_seconds": 128.21,
+    "dest_domain": "cdnjs.cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1815,
+    "bytes_received": 110175,
+    "duration_seconds": 61.33,
+    "dest_domain": "cnn.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1286,
+    "bytes_received": 3730352,
+    "duration_seconds": 81.18,
+    "dest_domain": "kubernetes.io"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 41,
+    "bytes_received": 222,
+    "duration_seconds": 0.61,
+    "dest_domain": "akamai.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1835,
+    "bytes_received": 3059,
+    "duration_seconds": 17.49,
+    "dest_domain": "reuters.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3369,
+    "bytes_received": 61003,
+    "duration_seconds": 22.98,
+    "dest_domain": "zoom.us"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8822,
+    "bytes_received": 22274,
+    "duration_seconds": 251.42,
+    "dest_domain": "8.8.8.8",
+    "source_ip": "192.168.1.181"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8265,
+    "bytes_received": 34901,
+    "duration_seconds": 84.74,
+    "dest_domain": "1.0.0.1",
+    "source_ip": "192.168.1.218"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7313,
+    "bytes_received": 23208,
+    "duration_seconds": 123.18,
+    "dest_ip": "1.0.0.1",
+    "source_ip": "192.168.1.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7884,
+    "bytes_received": 4035,
+    "duration_seconds": 281.55,
+    "dest_domain": "live.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8490,
+    "bytes_received": 20176,
+    "duration_seconds": 280.91,
+    "dest_domain": "npmjs.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6818,
+    "bytes_received": 6401,
+    "duration_seconds": 248.39,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1374,
+    "bytes_received": 4580647,
+    "duration_seconds": 291.97,
+    "dest_domain": "aws.amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2483,
+    "bytes_received": 2435050,
+    "duration_seconds": 122.88,
+    "dest_domain": "techcrunch.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4144,
+    "bytes_received": 49800,
+    "duration_seconds": 117.32,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3266,
+    "bytes_received": 10482962,
+    "duration_seconds": 126.25,
+    "dest_ip": "8.8.8.8",
+    "source_ip": "192.168.1.50"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3591,
+    "bytes_received": 51357,
+    "duration_seconds": 40.94,
+    "dest_domain": "aws.amazon.com",
+    "source_ip": "192.168.1.25"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4405,
+    "bytes_received": 6936511,
+    "duration_seconds": 206.8,
+    "dest_domain": "github.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1161,
+    "bytes_received": 7131982,
+    "duration_seconds": 227.64,
+    "dest_domain": "slack.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3748,
+    "bytes_received": 41486,
+    "duration_seconds": 35.42,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3519,
+    "bytes_received": 79861,
+    "duration_seconds": 34.81,
+    "dest_domain": "cdnjs.cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1741,
+    "bytes_received": 689856,
+    "duration_seconds": 129.09,
+    "dest_ip": "172.217.164.110",
+    "source_ip": "192.168.1.93"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1370,
+    "bytes_received": 22535,
+    "duration_seconds": 277.4,
+    "dest_domain": "npmjs.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7157,
+    "bytes_received": 30790,
+    "duration_seconds": 26.4,
+    "dest_domain": "drive.google.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4187,
+    "bytes_received": 35610,
+    "duration_seconds": 276.21,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7075,
+    "bytes_received": 30718,
+    "duration_seconds": 273.79,
+    "dest_domain": "kubernetes.io"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 87,
+    "bytes_received": 162,
+    "duration_seconds": 0.1,
+    "dest_domain": "kubernetes.io"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6287,
+    "bytes_received": 9437,
+    "duration_seconds": 106.94,
+    "dest_domain": "cdnjs.cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6270,
+    "bytes_received": 22722,
+    "duration_seconds": 198.03,
+    "dest_domain": "twitter.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4482,
+    "bytes_received": 42966,
+    "duration_seconds": 16.93,
+    "dest_domain": "techcrunch.com",
+    "source_ip": "192.168.1.94"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3255,
+    "bytes_received": 53101,
+    "duration_seconds": 1.21,
+    "dest_domain": "stackoverflow.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6580,
+    "bytes_received": 9961,
+    "duration_seconds": 277.18,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1840,
+    "bytes_received": 76564,
+    "duration_seconds": 39.37,
+    "dest_domain": "bbc.com",
+    "source_ip": "192.168.1.74"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2731,
+    "bytes_received": 44167,
+    "duration_seconds": 193.45,
+    "dest_domain": "cloudflare.com",
+    "source_ip": "192.168.1.91"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3594,
+    "bytes_received": 4584277,
+    "duration_seconds": 275.32,
+    "dest_domain": "office.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4179,
+    "bytes_received": 59314,
+    "duration_seconds": 48.66,
+    "dest_domain": "azure.microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5365,
+    "bytes_received": 8765,
+    "duration_seconds": 274.68,
+    "dest_domain": "aws.amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2099,
+    "bytes_received": 37466,
+    "duration_seconds": 229.18,
+    "dest_domain": "microsoft.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 974,
+    "bytes_received": 19936,
+    "duration_seconds": 11.99,
+    "dest_domain": "facebook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7119,
+    "bytes_received": 35543,
+    "duration_seconds": 111.47,
+    "dest_domain": "pypi.org",
+    "source_ip": "192.168.1.24"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2345,
+    "bytes_received": 20984,
+    "duration_seconds": 270.88,
+    "dest_domain": "outlook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3548,
+    "bytes_received": 25614,
+    "duration_seconds": 241.33,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8213,
+    "bytes_received": 37923,
+    "duration_seconds": 238.92,
+    "dest_ip": "172.217.164.142",
+    "source_ip": "192.168.1.200"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1677,
+    "bytes_received": 1394459,
+    "duration_seconds": 257.83,
+    "dest_domain": "techcrunch.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2535,
+    "bytes_received": 38227,
+    "duration_seconds": 3.14,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4933,
+    "bytes_received": 4314947,
+    "duration_seconds": 89.59,
+    "dest_ip": "1.0.0.1",
+    "source_ip": "192.168.1.21"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4148,
+    "bytes_received": 43821,
+    "duration_seconds": 151.62,
+    "dest_domain": "amazon.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3883,
+    "bytes_received": 60357,
+    "duration_seconds": 55.66,
+    "dest_domain": "techcrunch.com",
+    "source_ip": "192.168.1.165"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4420,
+    "bytes_received": 12635,
+    "duration_seconds": 5.53,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8371,
+    "bytes_received": 32067,
+    "duration_seconds": 277.31,
+    "dest_domain": "cdnjs.cloudflare.com",
+    "source_ip": "192.168.1.97"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4317,
+    "bytes_received": 9907,
+    "duration_seconds": 275.23,
+    "dest_domain": "bbc.com",
+    "source_ip": "192.168.1.241"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4565,
+    "bytes_received": 15747,
+    "duration_seconds": 261.7,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 451,
+    "bytes_received": 51046,
+    "duration_seconds": 44.18,
+    "dest_domain": "techcrunch.com",
+    "source_ip": "192.168.1.13"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 33,
+    "bytes_received": 149,
+    "duration_seconds": 0.91,
+    "dest_domain": "cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5590,
+    "bytes_received": 26428,
+    "duration_seconds": 274.91,
+    "dest_domain": "reuters.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9028,
+    "bytes_received": 35204,
+    "duration_seconds": 69.75,
+    "dest_domain": "amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1082,
+    "bytes_received": 1722141,
+    "duration_seconds": 237.21,
+    "dest_domain": "teams.microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3190,
+    "bytes_received": 7543467,
+    "duration_seconds": 62.65,
+    "dest_domain": "gmail.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6218,
+    "bytes_received": 18670,
+    "duration_seconds": 266.63,
+    "dest_domain": "bbc.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3876,
+    "bytes_received": 45081,
+    "duration_seconds": 218.6,
+    "dest_domain": "techcrunch.com",
+    "source_ip": "192.168.1.136"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6077,
+    "bytes_received": 6117,
+    "duration_seconds": 169.28,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3898,
+    "bytes_received": 27616,
+    "duration_seconds": 142.49,
+    "dest_domain": "azure.microsoft.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2526,
+    "bytes_received": 63580,
+    "duration_seconds": 23.89,
+    "dest_domain": "akamai.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4457,
+    "bytes_received": 7876128,
+    "duration_seconds": 149.06,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3145,
+    "bytes_received": 21945,
+    "duration_seconds": 212.22,
+    "dest_domain": "amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5568,
+    "bytes_received": 17748,
+    "duration_seconds": 79.29,
+    "dest_domain": "docker.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4310,
+    "bytes_received": 99954,
+    "duration_seconds": 30.7,
+    "dest_domain": "amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4281,
+    "bytes_received": 4599159,
+    "duration_seconds": 167.65,
+    "dest_domain": "slack.com",
+    "source_ip": "192.168.1.241"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 864,
+    "bytes_received": 18103,
+    "duration_seconds": 79.44,
+    "dest_domain": "fastly.com",
+    "source_ip": "192.168.1.197"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8816,
+    "bytes_received": 8936,
+    "duration_seconds": 231.0,
+    "dest_domain": "cnn.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 10072,
+    "bytes_received": 21663,
+    "duration_seconds": 57.38,
+    "dest_domain": "kubernetes.io",
+    "source_ip": "192.168.1.168"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8068,
+    "bytes_received": 28129,
+    "duration_seconds": 37.97,
+    "dest_domain": "amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6211,
+    "bytes_received": 13440,
+    "duration_seconds": 139.26,
+    "dest_ip": "172.217.164.110",
+    "source_ip": "192.168.1.76"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4795,
+    "bytes_received": 41783,
+    "duration_seconds": 58.82,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 75,
+    "bytes_received": 242,
+    "duration_seconds": 0.3,
+    "dest_domain": "reuters.com",
+    "source_ip": "192.168.1.126"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6661,
+    "bytes_received": 5105,
+    "duration_seconds": 148.22,
+    "dest_domain": "cnn.com",
+    "source_ip": "192.168.1.218"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1976,
+    "bytes_received": 45550,
+    "duration_seconds": 51.73,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 833,
+    "bytes_received": 28638,
+    "duration_seconds": 32.08,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1984,
+    "bytes_received": 46161,
+    "duration_seconds": 216.02,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 926,
+    "bytes_received": 40419,
+    "duration_seconds": 77.84,
+    "dest_domain": "techcrunch.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1056,
+    "bytes_received": 30189,
+    "duration_seconds": 132.89,
+    "dest_domain": "twitter.com",
+    "source_ip": "192.168.1.252"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5032,
+    "bytes_received": 29288,
+    "duration_seconds": 67.5,
+    "dest_domain": "8.8.4.4",
+    "source_ip": "192.168.1.198"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4563,
+    "bytes_received": 39118,
+    "duration_seconds": 207.6,
+    "dest_domain": "teams.microsoft.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2318,
+    "bytes_received": 4053,
+    "duration_seconds": 8.27,
+    "dest_domain": "reuters.com",
+    "source_ip": "192.168.1.98"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4682,
+    "bytes_received": 16356,
+    "duration_seconds": 179.55,
+    "dest_domain": "github.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2523,
+    "bytes_received": 34626,
+    "duration_seconds": 292.35,
+    "dest_ip": "1.1.1.1",
+    "source_ip": "192.168.1.17"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6610,
+    "bytes_received": 39665,
+    "duration_seconds": 293.89,
+    "dest_domain": "linkedin.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1662,
+    "bytes_received": 6030449,
+    "duration_seconds": 197.28,
+    "dest_domain": "techcrunch.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3795,
+    "bytes_received": 22423,
+    "duration_seconds": 262.88,
+    "dest_domain": "reuters.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 564,
+    "bytes_received": 15149,
+    "duration_seconds": 141.73,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2897,
+    "bytes_received": 8866,
+    "duration_seconds": 55.59,
+    "dest_domain": "cloudflare.com",
+    "source_ip": "192.168.1.183"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4472,
+    "bytes_received": 2366592,
+    "duration_seconds": 42.66,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3484,
+    "bytes_received": 8636401,
+    "duration_seconds": 58.57,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2040,
+    "bytes_received": 65197,
+    "duration_seconds": 1.61,
+    "dest_ip": "172.217.164.110",
+    "source_ip": "192.168.1.46"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2199,
+    "bytes_received": 24021,
+    "duration_seconds": 26.62,
+    "dest_domain": "amazon.com"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 46,
+    "bytes_received": 226,
+    "duration_seconds": 0.72,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3826,
+    "bytes_received": 15178,
+    "duration_seconds": 199.24,
+    "dest_domain": "twitter.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1281,
+    "bytes_received": 6559270,
+    "duration_seconds": 103.69,
+    "dest_domain": "outlook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5245,
+    "bytes_received": 27235,
+    "duration_seconds": 198.34,
+    "dest_domain": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3937,
+    "bytes_received": 100934,
+    "duration_seconds": 10.5,
+    "dest_ip": "1.1.1.1",
+    "source_ip": "192.168.1.159"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7935,
+    "bytes_received": 46343,
+    "duration_seconds": 268.81,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3583,
+    "bytes_received": 1498758,
+    "duration_seconds": 89.05,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 583,
+    "bytes_received": 55852,
+    "duration_seconds": 20.75,
+    "dest_domain": "wikipedia.org",
+    "source_ip": "192.168.1.8"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4921,
+    "bytes_received": 91543,
+    "duration_seconds": 52.53,
+    "dest_domain": "azure.microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7829,
+    "bytes_received": 49607,
+    "duration_seconds": 299.11,
+    "dest_domain": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2381,
+    "bytes_received": 6695,
+    "duration_seconds": 164.61,
+    "dest_domain": "wikipedia.org"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5813,
+    "bytes_received": 38214,
+    "duration_seconds": 94.7,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3446,
+    "bytes_received": 4409076,
+    "duration_seconds": 100.49,
+    "dest_domain": "gmail.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 495,
+    "bytes_received": 55873,
+    "duration_seconds": 38.08,
+    "dest_ip": "8.8.4.4",
+    "source_ip": "192.168.1.39"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1519,
+    "bytes_received": 34884,
+    "duration_seconds": 135.59,
+    "dest_ip": "172.217.164.142",
+    "source_ip": "192.168.1.108"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1546,
+    "bytes_received": 6324991,
+    "duration_seconds": 158.79,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4068,
+    "bytes_received": 45076,
+    "duration_seconds": 37.1,
+    "dest_domain": "dropbox.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1845,
+    "bytes_received": 91527,
+    "duration_seconds": 43.33,
+    "dest_domain": "twitter.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4044,
+    "bytes_received": 34091,
+    "duration_seconds": 203.23,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3575,
+    "bytes_received": 100258,
+    "duration_seconds": 27.19,
+    "dest_ip": "1.0.0.1",
+    "source_ip": "192.168.1.63"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7500,
+    "bytes_received": 11944,
+    "duration_seconds": 211.76,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3666,
+    "bytes_received": 11121,
+    "duration_seconds": 2.98,
+    "dest_domain": "reddit.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4767,
+    "bytes_received": 33572,
+    "duration_seconds": 247.89,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 110,
+    "bytes_received": 170,
+    "duration_seconds": 0.72,
+    "dest_domain": "reddit.com",
+    "source_ip": "192.168.1.58"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1066,
+    "bytes_received": 25098,
+    "duration_seconds": 150.55,
+    "dest_domain": "outlook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6292,
+    "bytes_received": 28127,
+    "duration_seconds": 49.99,
+    "dest_domain": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7057,
+    "bytes_received": 3031,
+    "duration_seconds": 136.9,
+    "dest_domain": "1.0.0.1",
+    "source_ip": "192.168.1.250"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1999,
+    "bytes_received": 4984684,
+    "duration_seconds": 202.89,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2259,
+    "bytes_received": 5796554,
+    "duration_seconds": 283.35,
+    "dest_domain": "cnn.com"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 90,
+    "bytes_received": 236,
+    "duration_seconds": 0.64,
+    "dest_domain": "amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9838,
+    "bytes_received": 31757,
+    "duration_seconds": 16.42,
+    "dest_domain": "google.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5842,
+    "bytes_received": 18845,
+    "duration_seconds": 7.83,
+    "dest_domain": "1.1.1.1",
+    "source_ip": "192.168.1.26"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5076,
+    "bytes_received": 4326,
+    "duration_seconds": 9.57,
+    "dest_ip": "208.67.222.222",
+    "source_ip": "192.168.1.144"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2115,
+    "bytes_received": 53730,
+    "duration_seconds": 23.44,
+    "dest_domain": "fastly.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4496,
+    "bytes_received": 83577,
+    "duration_seconds": 52.42,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6454,
+    "bytes_received": 15442,
+    "duration_seconds": 20.94,
+    "dest_domain": "wikipedia.org",
+    "source_ip": "192.168.1.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3001,
+    "bytes_received": 26435,
+    "duration_seconds": 88.55,
+    "dest_domain": "facebook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2490,
+    "bytes_received": 32229,
+    "duration_seconds": 259.36,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5570,
+    "bytes_received": 32831,
+    "duration_seconds": 274.75,
+    "dest_domain": "microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8259,
+    "bytes_received": 13991,
+    "duration_seconds": 297.31,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 517,
+    "bytes_received": 29824,
+    "duration_seconds": 279.51,
+    "dest_ip": "8.8.4.4",
+    "source_ip": "192.168.1.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5434,
+    "bytes_received": 13402,
+    "duration_seconds": 286.35,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9350,
+    "bytes_received": 40489,
+    "duration_seconds": 38.66,
+    "dest_domain": "kubernetes.io",
+    "source_ip": "192.168.1.112"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1872,
+    "bytes_received": 22937,
+    "duration_seconds": 126.48,
+    "dest_domain": "twitter.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6349,
+    "bytes_received": 20894,
+    "duration_seconds": 31.21,
+    "dest_domain": "gmail.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4167,
+    "bytes_received": 16591,
+    "duration_seconds": 119.87,
+    "dest_domain": "1.0.0.1"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 122,
+    "bytes_received": 176,
+    "duration_seconds": 0.33,
+    "dest_domain": "akamai.com",
+    "source_ip": "192.168.1.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4536,
+    "bytes_received": 9494326,
+    "duration_seconds": 179.52,
+    "dest_ip": "208.67.222.222",
+    "source_ip": "192.168.1.51"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2573,
+    "bytes_received": 10373808,
+    "duration_seconds": 151.14,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6974,
+    "bytes_received": 21337,
+    "duration_seconds": 265.61,
+    "dest_domain": "youtube.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7214,
+    "bytes_received": 34452,
+    "duration_seconds": 98.9,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1405,
+    "bytes_received": 50467,
+    "duration_seconds": 29.53,
+    "dest_domain": "portal.azure.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8956,
+    "bytes_received": 37548,
+    "duration_seconds": 19.67,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6540,
+    "bytes_received": 19740,
+    "duration_seconds": 139.1,
+    "dest_domain": "wikipedia.org"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2262,
+    "bytes_received": 18490,
+    "duration_seconds": 187.59,
+    "dest_domain": "azure.microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1261,
+    "bytes_received": 5489583,
+    "duration_seconds": 204.18,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5534,
+    "bytes_received": 15334,
+    "duration_seconds": 176.52,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1716,
+    "bytes_received": 86437,
+    "duration_seconds": 41.1,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6497,
+    "bytes_received": 28664,
+    "duration_seconds": 288.94,
+    "dest_domain": "fastly.com",
+    "source_ip": "192.168.1.51"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8574,
+    "bytes_received": 21792,
+    "duration_seconds": 36.83,
+    "dest_domain": "cdnjs.cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7555,
+    "bytes_received": 13962,
+    "duration_seconds": 251.47,
+    "dest_ip": "1.1.1.1",
+    "source_ip": "192.168.1.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3456,
+    "bytes_received": 2447860,
+    "duration_seconds": 157.79,
+    "dest_domain": "slack.com",
+    "source_ip": "192.168.1.71"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4717,
+    "bytes_received": 7477032,
+    "duration_seconds": 94.01,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2548,
+    "bytes_received": 827770,
+    "duration_seconds": 245.49,
+    "dest_ip": "8.8.8.8",
+    "source_ip": "192.168.1.129"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7385,
+    "bytes_received": 16035,
+    "duration_seconds": 75.83,
+    "dest_domain": "live.com",
+    "source_ip": "192.168.1.199"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2982,
+    "bytes_received": 18356,
+    "duration_seconds": 47.35,
+    "dest_domain": "fastly.com",
+    "source_ip": "192.168.1.51"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6002,
+    "bytes_received": 18276,
+    "duration_seconds": 173.12,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4705,
+    "bytes_received": 50401,
+    "duration_seconds": 2.52,
+    "dest_domain": "azure.microsoft.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2236,
+    "bytes_received": 33092,
+    "duration_seconds": 288.21,
+    "dest_ip": "172.217.164.142",
+    "source_ip": "192.168.1.17"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2577,
+    "bytes_received": 17612,
+    "duration_seconds": 104.68,
+    "dest_domain": "npmjs.com",
+    "source_ip": "192.168.1.56"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7013,
+    "bytes_received": 47180,
+    "duration_seconds": 186.87,
+    "dest_domain": "wikipedia.org"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2206,
+    "bytes_received": 7710566,
+    "duration_seconds": 120.91,
+    "dest_domain": "aws.amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5933,
+    "bytes_received": 7861,
+    "duration_seconds": 76.15,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2079,
+    "bytes_received": 27941,
+    "duration_seconds": 277.76,
+    "dest_ip": "172.217.164.110",
+    "source_ip": "192.168.1.165"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1022,
+    "bytes_received": 38267,
+    "duration_seconds": 90.83,
+    "dest_domain": "facebook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6595,
+    "bytes_received": 7524,
+    "duration_seconds": 70.65,
+    "dest_domain": "stackoverflow.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1031,
+    "bytes_received": 11009,
+    "duration_seconds": 129.36,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 57,
+    "bytes_received": 180,
+    "duration_seconds": 0.75,
+    "dest_domain": "dropbox.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5831,
+    "bytes_received": 31317,
+    "duration_seconds": 155.51,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8649,
+    "bytes_received": 48964,
+    "duration_seconds": 128.55,
+    "dest_domain": "facebook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1462,
+    "bytes_received": 41494,
+    "duration_seconds": 143.42,
+    "dest_domain": "amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9721,
+    "bytes_received": 28742,
+    "duration_seconds": 245.63,
+    "dest_domain": "pypi.org"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4740,
+    "bytes_received": 398721,
+    "duration_seconds": 214.19,
+    "dest_domain": "pypi.org",
+    "source_ip": "192.168.1.129"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5956,
+    "bytes_received": 47229,
+    "duration_seconds": 261.34,
+    "dest_domain": "zoom.us"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2125,
+    "bytes_received": 35573,
+    "duration_seconds": 155.21,
+    "dest_domain": "youtube.com",
+    "source_ip": "192.168.1.102"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5405,
+    "bytes_received": 35720,
+    "duration_seconds": 289.85,
+    "dest_ip": "1.1.1.1",
+    "source_ip": "192.168.1.115"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5226,
+    "bytes_received": 16143,
+    "duration_seconds": 238.2,
+    "dest_domain": "kubernetes.io"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1616,
+    "bytes_received": 29002,
+    "duration_seconds": 40.14,
+    "dest_domain": "1.1.1.1",
+    "source_ip": "192.168.1.154"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3078,
+    "bytes_received": 1714712,
+    "duration_seconds": 37.19,
+    "dest_domain": "amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6746,
+    "bytes_received": 45728,
+    "duration_seconds": 86.01,
+    "dest_domain": "techcrunch.com",
+    "source_ip": "192.168.1.206"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3155,
+    "bytes_received": 31152,
+    "duration_seconds": 241.85,
+    "dest_domain": "zoom.us"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3304,
+    "bytes_received": 6748634,
+    "duration_seconds": 8.63,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4953,
+    "bytes_received": 2534820,
+    "duration_seconds": 120.34,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4374,
+    "bytes_received": 25562,
+    "duration_seconds": 44.5,
+    "dest_domain": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9845,
+    "bytes_received": 20925,
+    "duration_seconds": 101.04,
+    "dest_domain": "dropbox.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5209,
+    "bytes_received": 26543,
+    "duration_seconds": 283.41,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5997,
+    "bytes_received": 20392,
+    "duration_seconds": 139.92,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5325,
+    "bytes_received": 25100,
+    "duration_seconds": 56.77,
+    "dest_domain": "aws.amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 638,
+    "bytes_received": 42974,
+    "duration_seconds": 167.58,
+    "dest_domain": "1.0.0.1",
+    "source_ip": "192.168.1.61"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3125,
+    "bytes_received": 9292734,
+    "duration_seconds": 18.38,
+    "dest_domain": "youtube.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 5670,
+    "bytes_received": 32483,
+    "duration_seconds": 46.51,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4156,
+    "bytes_received": 5528,
+    "duration_seconds": 266.89,
+    "dest_domain": "stackoverflow.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1125,
+    "bytes_received": 37265,
+    "duration_seconds": 224.55,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3113,
+    "bytes_received": 18148,
+    "duration_seconds": 34.92,
+    "dest_domain": "drive.google.com",
+    "source_ip": "192.168.1.26"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6018,
+    "bytes_received": 7108,
+    "duration_seconds": 98.15,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 7842,
+    "bytes_received": 20027,
+    "duration_seconds": 65.84,
+    "dest_domain": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4239,
+    "bytes_received": 18488,
+    "duration_seconds": 21.38,
+    "dest_domain": "facebook.com",
+    "source_ip": "192.168.1.155"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8636,
+    "bytes_received": 5351,
+    "duration_seconds": 211.15,
+    "dest_domain": "techcrunch.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4652,
+    "bytes_received": 7907452,
+    "duration_seconds": 161.76,
+    "dest_domain": "techcrunch.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6270,
+    "bytes_received": 40546,
+    "duration_seconds": 114.13,
+    "dest_ip": "8.8.8.8"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3134,
+    "bytes_received": 6670,
+    "duration_seconds": 92.18,
+    "dest_domain": "zoom.us",
+    "source_ip": "192.168.1.56"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8340,
+    "bytes_received": 28924,
+    "duration_seconds": 18.28,
+    "dest_domain": "slack.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3331,
+    "bytes_received": 57827,
+    "duration_seconds": 40.01,
+    "dest_domain": "akamai.com",
+    "source_ip": "192.168.1.250"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3183,
+    "bytes_received": 27366,
+    "duration_seconds": 284.8,
+    "dest_domain": "cnn.com",
+    "source_ip": "192.168.1.221"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2218,
+    "bytes_received": 9532,
+    "duration_seconds": 141.61,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2582,
+    "bytes_received": 68260,
+    "duration_seconds": 20.03,
+    "dest_domain": "wikipedia.org"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3421,
+    "bytes_received": 44557,
+    "duration_seconds": 27.9,
+    "dest_domain": "cloudflare.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2470,
+    "bytes_received": 44264,
+    "duration_seconds": 142.37,
+    "dest_ip": "1.0.0.1",
+    "source_ip": "192.168.1.189"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1954,
+    "bytes_received": 3724287,
+    "duration_seconds": 48.27,
+    "dest_domain": "office.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 10016,
+    "bytes_received": 22269,
+    "duration_seconds": 227.16,
+    "dest_domain": "docker.com",
+    "source_ip": "192.168.1.228"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1299,
+    "bytes_received": 9868708,
+    "duration_seconds": 7.49,
+    "dest_domain": "google.com",
+    "source_ip": "192.168.1.86"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9123,
+    "bytes_received": 42395,
+    "duration_seconds": 243.73,
+    "dest_domain": "8.8.4.4",
+    "source_ip": "192.168.1.168"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2166,
+    "bytes_received": 4034383,
+    "duration_seconds": 123.13,
+    "dest_domain": "portal.azure.com",
+    "source_ip": "192.168.1.253"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3057,
+    "bytes_received": 100431,
+    "duration_seconds": 18.01,
+    "dest_ip": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3659,
+    "bytes_received": 8240098,
+    "duration_seconds": 18.2,
+    "dest_domain": "github.com",
+    "source_ip": "192.168.1.134"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3367,
+    "bytes_received": 42860,
+    "duration_seconds": 196.52,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4864,
+    "bytes_received": 47168,
+    "duration_seconds": 141.5,
+    "dest_domain": "gmail.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8219,
+    "bytes_received": 30974,
+    "duration_seconds": 200.83,
+    "dest_domain": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6884,
+    "bytes_received": 42369,
+    "duration_seconds": 174.47,
+    "dest_domain": "outlook.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4406,
+    "bytes_received": 2274881,
+    "duration_seconds": 274.2,
+    "dest_domain": "amazon.com"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 34,
+    "bytes_received": 144,
+    "duration_seconds": 0.59,
+    "dest_ip": "1.1.1.1",
+    "source_ip": "192.168.1.96"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3361,
+    "bytes_received": 10107967,
+    "duration_seconds": 272.29,
+    "dest_domain": "reddit.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1273,
+    "bytes_received": 51342,
+    "duration_seconds": 7.14,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4112,
+    "bytes_received": 28647,
+    "duration_seconds": 54.09,
+    "dest_domain": "portal.azure.com"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 33,
+    "bytes_received": 152,
+    "duration_seconds": 0.14,
+    "dest_ip": "208.67.222.222"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 6594,
+    "bytes_received": 47711,
+    "duration_seconds": 225.09,
+    "dest_domain": "npmjs.com",
+    "source_ip": "192.168.1.81"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 3444,
+    "bytes_received": 78342,
+    "duration_seconds": 53.38,
+    "dest_domain": "gmail.com"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 94,
+    "bytes_received": 210,
+    "duration_seconds": 0.77,
+    "dest_ip": "8.8.4.4",
+    "source_ip": "192.168.1.93"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9038,
+    "bytes_received": 32445,
+    "duration_seconds": 235.85,
+    "dest_domain": "gmail.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4717,
+    "bytes_received": 47731,
+    "duration_seconds": 230.78,
+    "dest_ip": "1.1.1.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 8401,
+    "bytes_received": 50310,
+    "duration_seconds": 10.36,
+    "dest_domain": "1.0.0.1"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9958,
+    "bytes_received": 26938,
+    "duration_seconds": 205.46,
+    "dest_domain": "gmail.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 4904,
+    "bytes_received": 37022,
+    "duration_seconds": 31.32,
+    "dest_domain": "aws.amazon.com"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 10105,
+    "bytes_received": 7578,
+    "duration_seconds": 50.22,
+    "dest_domain": "outlook.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 1814,
+    "bytes_received": 6708,
+    "duration_seconds": 17.03,
+    "dest_domain": "1.0.0.1",
+    "source_ip": "192.168.1.27"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3377,
+    "bytes_received": 14705,
+    "duration_seconds": 277.43,
+    "dest_ip": "172.217.164.110"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1546,
+    "bytes_received": 9680632,
+    "duration_seconds": 255.07,
+    "dest_domain": "drive.google.com"
+  },
+  {
+    "protocol": "HTTP",
+    "port": 80,
+    "bytes_sent": 2433,
+    "bytes_received": 28263,
+    "duration_seconds": 18.21,
+    "dest_domain": "outlook.com"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 69,
+    "bytes_received": 246,
+    "duration_seconds": 0.51,
+    "dest_domain": "cnn.com",
+    "source_ip": "192.168.1.140"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1506,
+    "bytes_received": 7106027,
+    "duration_seconds": 83.25,
+    "dest_ip": "172.217.164.142",
+    "source_ip": "192.168.1.120"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4844,
+    "bytes_received": 48867,
+    "duration_seconds": 98.12,
+    "dest_ip": "1.0.0.1",
+    "source_ip": "192.168.1.136"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 54,
+    "bytes_received": 157,
+    "duration_seconds": 0.28,
+    "dest_domain": "pypi.org"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 9485,
+    "bytes_received": 27425,
+    "duration_seconds": 240.56,
+    "dest_ip": "172.217.164.142"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2350,
+    "bytes_received": 2948504,
+    "duration_seconds": 162.34,
+    "dest_ip": "8.8.4.4"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 2425,
+    "bytes_received": 18888,
+    "duration_seconds": 7.63,
+    "dest_domain": "live.com",
+    "source_ip": "192.168.1.42"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 4976,
+    "bytes_received": 32698,
+    "duration_seconds": 211.21,
+    "dest_domain": "reddit.com",
+    "source_ip": "192.168.1.109"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 1206,
+    "bytes_received": 4056085,
+    "duration_seconds": 110.32,
+    "dest_domain": "microsoft.com",
+    "source_ip": "192.168.1.140"
+  },
+  {
+    "protocol": "HTTPS",
+    "port": 443,
+    "bytes_sent": 3889,
+    "bytes_received": 26383,
+    "duration_seconds": 86.16,
+    "dest_domain": "reuters.com"
+  },
+  {
+    "protocol": "DNS",
+    "port": 53,
+    "bytes_sent": 119,
+    "bytes_received": 154,
+    "duration_seconds": 0.32,
+    "dest_domain": "reuters.com"
+  }
+]
+
+

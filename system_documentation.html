@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Scan - System Documentation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+        }
+
+        nav {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            position: sticky;
+            top: 20px;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #667eea;
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        section {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #764ba2;
+            font-size: 1.5em;
+            margin: 25px 0 15px 0;
+        }
+
+        h4 {
+            color: #555;
+            font-size: 1.2em;
+            margin: 20px 0 10px 0;
+        }
+
+        .module-card {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .module-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .tech-badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            margin: 5px 5px 5px 0;
+            font-weight: 500;
+        }
+
+        .flow-diagram {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+
+        .flow-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            margin: 10px;
+            display: inline-block;
+            min-width: 150px;
+            text-align: center;
+            font-weight: 500;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .flow-arrow {
+            display: inline-block;
+            color: #667eea;
+            font-size: 2em;
+            margin: 0 10px;
+            vertical-align: middle;
+        }
+
+        .flow-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 15px 0;
+        }
+
+        .agent-box {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        .llm-box {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        }
+
+        .data-box {
+            background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #e0e0e0;
+            transition: all 0.3s;
+        }
+
+        .card:hover {
+            border-color: #667eea;
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.3);
+            transform: translateY(-5px);
+        }
+
+        .code-block {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 15px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        .highlight {
+            background: #fff3cd;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        ul, ol {
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        .architecture-diagram {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .layer {
+            background: rgba(102, 126, 234, 0.1);
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            border: 2px solid #667eea;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+            min-width: 150px;
+            margin: 10px;
+        }
+
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        .stat-label {
+            font-size: 1em;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+            
+            .flow-row {
+                flex-direction: column;
+            }
+            
+            .flow-arrow {
+                transform: rotate(90deg);
+            }
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #667eea;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            transition: all 0.3s;
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .back-to-top:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🛡️ Network Scan System</h1>
+            <p class="subtitle">AI-Powered Security Agent System - Complete Documentation</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#architecture">Architecture</a></li>
+                <li><a href="#flow">System Flow</a></li>
+                <li><a href="#modules">Modules</a></li>
+                <li><a href="#technologies">Technologies</a></li>
+                <li><a href="#agents">Agents</a></li>
+                <li><a href="#features">Features</a></li>
+            </ul>
+        </nav>
+
+        <section id="overview">
+            <h2>📋 System Overview</h2>
+            <p>A next-generation, LLM-powered cybersecurity threat detection system that combines statistical baseline learning with AI reasoning for proactive threat detection.</p>
+            
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Security Agents</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">7</div>
+                    <div class="stat-label">Core Modules</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Technologies</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">AI-Powered</div>
+                </div>
+            </div>
+
+            <h3>Key Capabilities</h3>
+            <ul>
+                <li><strong>Proactive Threat Detection:</strong> Detects threats before damage occurs using baseline learning and LLM reasoning</li>
+                <li><strong>LLM-Enhanced Analysis:</strong> Statistical detection enhanced with AI reasoning for better accuracy</li>
+                <li><strong>Complete User Control:</strong> All actions require approval with full visibility</li>
+                <li><strong>Cross-Agent Correlation:</strong> Identifies coordinated attacks across network, endpoint, and email</li>
+                <li><strong>Explainable AI:</strong> All detections include LLM-generated reasoning and context</li>
+                <li><strong>MITRE ATT&CK Integration:</strong> Maps detections to MITRE ATT&CK framework techniques</li>
+            </ul>
+        </section>
+
+        <section id="architecture">
+            <h2>🏗️ System Architecture</h2>
+            
+            <div class="architecture-diagram">
+                <div class="layer">
+                    <h3>Frontend Layer</h3>
+                    <div class="flow-row">
+                        <div class="flow-box data-box">HTML/CSS/JS</div>
+                        <div class="flow-arrow">→</div>
+                        <div class="flow-box data-box">WebSocket</div>
+                        <div class="flow-arrow">→</div>
+                        <div class="flow-box data-box">Flask API</div>
+                    </div>
+                </div>
+
+                <div class="layer">
+                    <h3>API & Orchestration Layer</h3>
+                    <div class="flow-row">
+                        <div class="flow-box">Flask REST API</div>
+                        <div class="flow-arrow">→</div>
+                        <div class="flow-box">Test Orchestrator</div>
+                        <div class="flow-arrow">→</div>
+                        <div class="flow-box">Crew Orchestrator</div>
+                    </div>
+                </div>
+
+                <div class="layer">
+                    <h3>Agent Layer</h3>
+                    <div class="flow-row">
+                        <div class="flow-box agent-box">Router Agent</div>
+                        <div class="flow-box agent-box">Computer Agent</div>
+                        <div class="flow-box agent-box">Email Agent</div>
+                    </div>
+                </div>
+
+                <div class="layer">
+                    <h3>LLM Reasoning Layer</h3>
+                    <div class="flow-row">
+                        <div class="flow-box llm-box">Threat Analyzer</div>
+                        <div class="flow-box llm-box">Pattern Recognizer</div>
+                        <div class="flow-box llm-box">Context Builder</div>
+                    </div>
+                </div>
+
+                <div class="layer">
+                    <h3>Knowledge & Data Layer</h3>
+                    <div class="flow-row">
+                        <div class="flow-box data-box">MITRE RAG</div>
+                        <div class="flow-box data-box">Neo4j Graph DB</div>
+                        <div class="flow-box data-box">Vector Store</div>
+                        <div class="flow-box data-box">Baseline Learner</div>
+                    </div>
+                </div>
+
+                <div class="layer">
+                    <h3>Infrastructure Layer</h3>
+                    <div class="flow-row">
+                        <div class="flow-box">Redis Message Bus</div>
+                        <div class="flow-box">Neo4j Database</div>
+                        <div class="flow-box">LLM Provider</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="flow">
+            <h2>🔄 System Flow</h2>
+            
+            <div class="flow-diagram">
+                <h3>Complete Data Flow</h3>
+                <div class="flow-row">
+                    <div class="flow-box data-box">Data Input</div>
+                    <div class="flow-arrow">→</div>
+                </div>
+                <div class="flow-row">
+                    <div class="flow-box agent-box">Router Agent</div>
+                    <div class="flow-box agent-box">Computer Agent</div>
+                    <div class="flow-box agent-box">Email Agent</div>
+                </div>
+                <div class="flow-row">
+                    <div class="flow-arrow">↓</div>
+                </div>
+                <div class="flow-row">
+                    <div class="flow-box">Baseline Learning</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-box">Anomaly Detection</div>
+                </div>
+                <div class="flow-row">
+                    <div class="flow-arrow">↓</div>
+                </div>
+                <div class="flow-row">
+                    <div class="flow-box llm-box">LLM Threat Analysis</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-box llm-box">Pattern Recognition</div>
+                </div>
+                <div class="flow-row">
+                    <div class="flow-arrow">↓</div>
+                </div>
+                <div class="flow-row">
+                    <div class="flow-box">Action Guardrails</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-box">User Approval</div>
+                </div>
+                <div class="flow-row">
+                    <div class="flow-arrow">↓</div>
+                </div>
+                <div class="flow-row">
+                    <div class="flow-box data-box">Message Bus</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-box data-box">Knowledge Fusion</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-box data-box">MITRE Matching</div>
+                </div>
+                <div class="flow-row">
+                    <div class="flow-arrow">↓</div>
+                </div>
+                <div class="flow-row">
+                    <div class="flow-box">Enriched Intelligence</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-box">Frontend Display</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="modules">
+            <h2>📦 Core Modules</h2>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>1. Agents Module</h3>
+                    <p><strong>Location:</strong> <code>agents/</code></p>
+                    <p><strong>Purpose:</strong> Core security agents with LLM reasoning</p>
+                    <h4>Technologies:</h4>
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">CrewAI</span>
+                    <span class="tech-badge">LLM APIs</span>
+                    <span class="tech-badge">Statistical Analysis</span>
+                </div>
+
+                <div class="card">
+                    <h3>2. Baseline Training</h3>
+                    <p><strong>Location:</strong> <code>baseline_training/</code></p>
+                    <p><strong>Purpose:</strong> Statistical baseline learning for anomaly detection</p>
+                    <h4>Technologies:</h4>
+                    <span class="tech-badge">NumPy</span>
+                    <span class="tech-badge">Pandas</span>
+                    <span class="tech-badge">Statistics</span>
+                    <span class="tech-badge">JSON/CSV</span>
+                </div>
+
+                <div class="card">
+                    <h3>3. Knowledge Fusion</h3>
+                    <p><strong>Location:</strong> <code>knowledge_fusion/</code></p>
+                    <p><strong>Purpose:</strong> MITRE ATT&CK integration and RAG pipeline</p>
+                    <h4>Technologies:</h4>
+                    <span class="tech-badge">Neo4j</span>
+                    <span class="tech-badge">Vector Embeddings</span>
+                    <span class="tech-badge">GraphQL</span>
+                    <span class="tech-badge">RAG</span>
+                </div>
+
+                <div class="card">
+                    <h3>4. Communication</h3>
+                    <p><strong>Location:</strong> <code>communication/</code></p>
+                    <p><strong>Purpose:</strong> Real-time agent communication and message bus</p>
+                    <h4>Technologies:</h4>
+                    <span class="tech-badge">Redis</span>
+                    <span class="tech-badge">Pub/Sub</span>
+                    <span class="tech-badge">WebSocket</span>
+                    <span class="tech-badge">Message Queue</span>
+                </div>
+
+                <div class="card">
+                    <h3>5. Attack Testing</h3>
+                    <p><strong>Location:</strong> <code>attack_testing/</code></p>
+                    <p><strong>Purpose:</strong> Attack generation and testing framework</p>
+                    <h4>Technologies:</h4>
+                    <span class="tech-badge">LLM Generation</span>
+                    <span class="tech-badge">Flask API</span>
+                    <span class="tech-badge">Test Orchestration</span>
+                    <span class="tech-badge">Attack Scenarios</span>
+                </div>
+
+                <div class="card">
+                    <h3>6. Guardrails</h3>
+                    <p><strong>Location:</strong> <code>guardrails/</code></p>
+                    <p><strong>Purpose:</strong> Action approval and policy enforcement</p>
+                    <h4>Technologies:</h4>
+                    <span class="tech-badge">Policy Engine</span>
+                    <span class="tech-badge">Approval Workflow</span>
+                    <span class="tech-badge">Action Logging</span>
+                    <span class="tech-badge">Audit Trail</span>
+                </div>
+
+                <div class="card">
+                    <h3>7. Observability</h3>
+                    <p><strong>Location:</strong> <strong>observability/</strong></p>
+                    <p><strong>Purpose:</strong> Monitoring, telemetry, and notifications</p>
+                    <h4>Technologies:</h4>
+                    <span class="tech-badge">Real-time Monitoring</span>
+                    <span class="tech-badge">Telemetry</span>
+                    <span class="tech-badge">Dashboard</span>
+                    <span class="tech-badge">Notifications</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="technologies">
+            <h2>🛠️ Technology Stack</h2>
+            
+            <div class="module-card">
+                <h3>Backend Technologies</h3>
+                <ul>
+                    <li><strong>Python 3.8+</strong> - Core programming language</li>
+                    <li><strong>Flask</strong> - REST API framework</li>
+                    <li><strong>Flask-SocketIO</strong> - WebSocket support for real-time updates</li>
+                    <li><strong>CrewAI</strong> - Agent orchestration framework</li>
+                    <li><strong>Pydantic</strong> - Data validation and serialization</li>
+                    <li><strong>NumPy</strong> - Numerical computations for baseline learning</li>
+                    <li><strong>Pandas</strong> - Data processing and analysis</li>
+                </ul>
+            </div>
+
+            <div class="module-card">
+                <h3>AI & LLM Technologies</h3>
+                <ul>
+                    <li><strong>OpenAI API</strong> - LLM provider for threat analysis</li>
+                    <li><strong>LLM Provider Interface</strong> - Abstraction for multiple LLM providers</li>
+                    <li><strong>Vector Embeddings</strong> - Semantic search for MITRE techniques</li>
+                    <li><strong>RAG (Retrieval Augmented Generation)</strong> - Context-aware LLM responses</li>
+                    <li><strong>Proactive RAG</strong> - Early warning intelligence</li>
+                </ul>
+            </div>
+
+            <div class="module-card">
+                <h3>Database & Storage</h3>
+                <ul>
+                    <li><strong>Neo4j</strong> - Graph database for MITRE ATT&CK knowledge</li>
+                    <li><strong>Redis</strong> - Message bus and caching</li>
+                    <li><strong>Vector Store</strong> - Embedding storage for semantic search</li>
+                    <li><strong>JSON/CSV</strong> - Training data formats</li>
+                </ul>
+            </div>
+
+            <div class="module-card">
+                <h3>Frontend Technologies</h3>
+                <ul>
+                    <li><strong>HTML5</strong> - Structure</li>
+                    <li><strong>CSS3</strong> - Styling and animations</li>
+                    <li><strong>JavaScript (ES6+)</strong> - Interactivity</li>
+                    <li><strong>WebSocket API</strong> - Real-time communication</li>
+                    <li><strong>Fetch API</strong> - REST API calls</li>
+                </ul>
+            </div>
+
+            <div class="module-card">
+                <h3>Security & Threat Intelligence</h3>
+                <ul>
+                    <li><strong>MITRE ATT&CK Framework</strong> - Threat intelligence taxonomy</li>
+                    <li><strong>Statistical Anomaly Detection</strong> - Baseline-based detection</li>
+                    <li><strong>Pattern Recognition</strong> - Multi-stage attack detection</li>
+                    <li><strong>Cross-Agent Correlation</strong> - Coordinated attack detection</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="agents">
+            <h2>🤖 Security Agents</h2>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>Router LLM Agent</h3>
+                    <p><strong>File:</strong> <code>agents/llm_agents/router_llm_agent.py</code></p>
+                    <p><strong>Purpose:</strong> Network traffic monitoring and analysis</p>
+                    <h4>Detects:</h4>
+                    <ul>
+                        <li>Command & Control (C2) channels</li>
+                        <li>Data exfiltration</li>
+                        <li>Network anomalies</li>
+                        <li>Lateral movement</li>
+                    </ul>
+                    <h4>Technologies:</h4>
+                    <span class="tech-badge">LLM Analysis</span>
+                    <span class="tech-badge">Statistical Baselines</span>
+                    <span class="tech-badge">Pattern Matching</span>
+                </div>
+
+                <div class="card">
+                    <h3>Computer LLM Agent</h3>
+                    <p><strong>File:</strong> <code>agents/llm_agents/computer_llm_agent.py</code></p>
+                    <p><strong>Purpose:</strong> System log analysis and endpoint security</p>
+                    <h4>Detects:</h4>
+                    <ul>
+                        <li>Process injection</li>
+                        <li>Privilege escalation</li>
+                        <li>Persistence mechanisms</li>
+                        <li>PowerShell obfuscation</li>
+                    </ul>
+                    <h4>Technologies:</h4>
+                    <span class="tech-badge">LLM Analysis</span>
+                    <span class="tech-badge">Statistical Baselines</span>
+                    <span class="tech-badge">Pattern Recognition</span>
+                </div>
+
+                <div class="card">
+                    <h3>Email LLM Agent</h3>
+                    <p><strong>File:</strong> <code>agents/llm_agents/email_llm_agent.py</code></p>
+                    <p><strong>Purpose:</strong> Email security and phishing detection</p>
+                    <h4>Detects:</h4>
+                    <ul>
+                        <li>Phishing attempts</li>
+                        <li>Malicious attachments</li>
+                        <li>URL obfuscation</li>
+                        <li>Email spoofing</li>
+                    </ul>
+                    <h4>Technologies:</h4>
+                    <span class="tech-badge">LLM Analysis</span>
+                    <span class="tech-badge">Statistical Baselines</span>
+                    <span class="tech-badge">Content Analysis</span>
+                </div>
+            </div>
+
+            <h3>Agent Processing Flow</h3>
+            <div class="code-block">
+1. Data Input → Agent receives data
+2. Feature Extraction → Extract relevant features
+3. Baseline Comparison → Compare against learned baselines
+4. Anomaly Detection → Calculate anomaly scores
+5. LLM Threat Analysis → Determine if anomaly is threat
+6. Pattern Recognition → Identify attack patterns
+7. MITRE Matching → Map to MITRE ATT&CK techniques
+8. Action Guardrails → Require user approval
+9. Publish → Send to message bus
+10. Knowledge Fusion → Enrich with threat intelligence
+            </div>
+        </section>
+
+        <section id="features">
+            <h2>✨ Key Features</h2>
+            
+            <div class="module-card">
+                <h3>1. Hybrid Detection System</h3>
+                <p>Combines statistical baseline learning with LLM reasoning:</p>
+                <ul>
+                    <li><strong>Statistical Baselines:</strong> Learn normal patterns from training data</li>
+                    <li><strong>Anomaly Scoring:</strong> Calculate deviation scores (0.0 to 1.0)</li>
+                    <li><strong>LLM Analysis:</strong> Determine if anomalies are real threats</li>
+                    <li><strong>Context-Aware:</strong> Uses historical data and cross-agent correlation</li>
+                </ul>
+            </div>
+
+            <div class="module-card">
+                <h3>2. MITRE ATT&CK Integration</h3>
+                <p>Full integration with MITRE ATT&CK framework:</p>
+                <ul>
+                    <li><strong>Graph Database:</strong> Neo4j stores MITRE techniques and relationships</li>
+                    <li><strong>Vector Search:</strong> Semantic matching of observations to techniques</li>
+                    <li><strong>Proactive RAG:</strong> Pre-fetches related techniques for early warning</li>
+                    <li><strong>Technique Mapping:</strong> Automatically maps detections to MITRE techniques</li>
+                </ul>
+            </div>
+
+            <div class="module-card">
+                <h3>3. Real-Time Communication</h3>
+                <p>Agent collaboration and real-time updates:</p>
+                <ul>
+                    <li><strong>Message Bus:</strong> Redis-based pub/sub for agent communication</li>
+                    <li><strong>WebSocket:</strong> Real-time updates to frontend</li>
+                    <li><strong>Agent Collaboration:</strong> Agents query each other for context</li>
+                    <li><strong>Cross-Agent Correlation:</strong> Identifies coordinated attacks</li>
+                </ul>
+            </div>
+
+            <div class="module-card">
+                <h3>4. Action Guardrails</h3>
+                <p>Complete user control over agent actions:</p>
+                <ul>
+                    <li><strong>Action Interception:</strong> All actions intercepted before execution</li>
+                    <li><strong>User Approval:</strong> Required for all agent actions</li>
+                    <li><strong>Policy Engine:</strong> Configurable policies for different actions</li>
+                    <li><strong>Audit Trail:</strong> Complete logging of all actions and decisions</li>
+                </ul>
+            </div>
+
+            <div class="module-card">
+                <h3>5. Baseline Training System</h3>
+                <p>Statistical baseline learning from training data:</p>
+                <ul>
+                    <li><strong>Numeric Baselines:</strong> Mean, std dev, percentiles for numeric features</li>
+                    <li><strong>Pattern Baselines:</strong> Frequency-based patterns for categorical data</li>
+                    <li><strong>Training Modes:</strong> Training, inference, and hybrid modes</li>
+                    <li><strong>Metrics:</strong> Detailed statistics and readiness indicators</li>
+                </ul>
+            </div>
+
+            <div class="module-card">
+                <h3>6. Attack Testing Framework</h3>
+                <p>Comprehensive attack generation and testing:</p>
+                <ul>
+                    <li><strong>LLM-Powered Generation:</strong> Realistic attack scenarios</li>
+                    <li><strong>MITRE-Based Attacks:</strong> Attacks mapped to MITRE techniques</li>
+                    <li><strong>Auto-Testing:</strong> Automatic agent and attack type selection</li>
+                    <li><strong>Result Analysis:</strong> Detailed test results and metrics</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>📊 System Statistics</h2>
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Security Agents</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">7</div>
+                    <div class="stat-label">Core Modules</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Technologies</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">AI-Powered</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>🚀 Getting Started</h2>
+            <div class="module-card">
+                <h3>Prerequisites</h3>
+                <ul>
+                    <li>Python 3.8+</li>
+                    <li>Redis (for message bus)</li>
+                    <li>Neo4j (for MITRE ATT&CK knowledge base)</li>
+                    <li>OpenAI API key (or other LLM provider)</li>
+                </ul>
+            </div>
+
+            <div class="module-card">
+                <h3>Installation Steps</h3>
+                <div class="code-block">
+# Install dependencies
+pip install -r requirements.txt
+
+# Start Redis
+redis-server
+
+# Start Neo4j (using Docker)
+docker run -p 7474:7474 -p 7687:7687 -e NEO4J_AUTH=neo4j/password neo4j:latest
+
+# Start backend server
+python start_backend_server.py
+
+# Start frontend server
+python -m http.server 8080
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="back-to-top" id="backToTop">↑</div>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Back to top button
+        const backToTop = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section, .card, .module-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>

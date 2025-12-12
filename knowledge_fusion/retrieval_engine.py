@@ -37,11 +37,18 @@ class GraphRetriever:
             graph: Neo4j Graph instance. If None, creates connection from config.
         """
         if graph is None:
-            config = get_config()
-            self.graph = Graph(
-                config.neo4j.uri,
-                auth=(config.neo4j.username, config.neo4j.password)
-            )
+            try:
+                config = get_config()
+                self.graph = Graph(
+                    config.neo4j.uri,
+                    auth=(config.neo4j.username, config.neo4j.password)
+                )
+            except Exception as e:
+                # Neo4j not available - set graph to None and log warning
+                import logging
+                logger = logging.getLogger(__name__)
+                logger.warning(f"Neo4j connection failed: {e}. Knowledge Fusion will work without graph retrieval.")
+                self.graph = None
         else:
             self.graph = graph
         
@@ -59,6 +66,9 @@ class GraphRetriever:
             List of RetrievalResult objects
         """
         if not keywords:
+            return []
+        
+        if self.graph is None:
             return []
         
         query = self.queries.get_techniques_by_keywords(keywords) + f" LIMIT {top_k}"
@@ -105,6 +115,9 @@ class GraphRetriever:
         Returns:
             List of RetrievalResult objects
         """
+        if self.graph is None:
+            return []
+        
         query = self.queries.get_techniques_by_tactic(tactic_name) + f" LIMIT {top_k}"
         results = self.graph.run(query).data()
         
@@ -139,6 +152,9 @@ class GraphRetriever:
         Returns:
             RetrievalResult or None if not found
         """
+        if self.graph is None:
+            return None
+        
         query = self.queries.get_technique_by_external_id(external_id)
         results = self.graph.run(query).data()
         
@@ -177,6 +193,9 @@ class GraphRetriever:
         Returns:
             List of RetrievalResult objects
         """
+        if self.graph is None:
+            return []
+        
         query = self.queries.get_related_techniques(technique_id, depth, limit=top_k)
         results = self.graph.run(query).data()
         

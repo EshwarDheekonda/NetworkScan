@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Scan - AI-Powered Security Agent System</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/agent-windows.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>Network Scan</h1>
+            </div>
+            <div class="nav-status">
+                <span class="status-indicator" id="systemStatus">●</span>
+                <span id="systemStatusText">Ready</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Network Scan</h1>
+            <p class="hero-subtitle">AI-Powered Security Agent System</p>
+            <p class="hero-description">Advanced threat detection with LLM-powered agents monitoring Router, Computer, and Email systems</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Baseline Training Section -->
+        <section class="section training-section" id="trainingSection">
+            <div class="section-header">
+                <h2>Baseline Training</h2>
+                <p>Upload training data for each agent to establish baseline behavior patterns</p>
+            </div>
+            <div class="training-grid">
+                <!-- Router Agent Training -->
+                <div class="training-card" data-agent="router">
+                    <div class="card-header">
+                        <h3>Router Agent</h3>
+                        <span class="status-badge" id="routerStatus">Not Trained</span>
+                    </div>
+                    <div class="upload-area" id="routerUpload">
+                        <input type="file" id="routerFile" accept=".json,.csv,.jsonl" style="display: none;">
+                        <div class="upload-content">
+                            <svg class="upload-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="17 8 12 3 7 8"></polyline>
+                                <line x1="12" y1="3" x2="12" y2="15"></line>
+                            </svg>
+                            <p>Drag & drop training data or click to browse</p>
+                            <p class="upload-hint">Supports JSON, CSV, JSONL</p>
+                        </div>
+                    </div>
+                    <div class="training-progress" id="routerProgress" style="display: none;">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="routerProgressFill"></div>
+                        </div>
+                        <p class="progress-text" id="routerProgressText">Training...</p>
+                    </div>
+                    <div class="training-stats" id="routerStats" style="display: none;">
+                        <div class="stat-item">
+                            <span class="stat-label">Records:</span>
+                            <span class="stat-value" id="routerRecords">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Status:</span>
+                            <span class="stat-value" id="routerBaselineStatus">-</span>
+                        </div>
+                    </div>
+                    <div class="training-metrics" id="routerMetrics" style="display: none;">
+                        <button class="metrics-toggle" onclick="trainingManager.toggleMetrics('router')">
+                            <span>View Detailed Metrics</span>
+                            <span class="toggle-icon">▼</span>
+                        </button>
+                        <div class="metrics-content" id="routerMetricsContent" style="display: none;">
+                            <div class="key-metrics">
+                                <h4>Key Metrics</h4>
+                                <div class="metrics-grid">
+                                    <div class="metric-card">
+                                        <span class="metric-label">Records Processed:</span>
+                                        <span class="metric-value" id="routerRecordsProcessed">0</span>
+                                    </div>
+                                    <div class="metric-card">
+                                        <span class="metric-label">Records Valid:</span>
+                                        <span class="metric-value" id="routerRecordsValid">0</span>
+                                    </div>
+                                    <div class="metric-card">
+                                        <span class="metric-label">Records Invalid:</span>
+                                        <span class="metric-value" id="routerRecordsInvalid">0</span>
+                                    </div>
+                                    <div class="metric-card">
+                                        <span class="metric-label">Baseline Ready:</span>
+                                        <span class="metric-value" id="routerBaselineReady">No</span>
+                                    </div>
+                                    <div class="metric-card">
+                                        <span class="metric-label">Training Mode:</span>
+                                        <span class="metric-value" id="routerTrainingMode">-</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="baseline-metrics">
+                                <h4>Baseline Metrics</h4>
+                                <div class="baseline-section">
+                                    <h5>Numeric Baselines</h5>
+                                    <div class="baseline-list" id="routerNumericBaselines"></div>
+                                </div>
+                                <div class="baseline-section">
+                                    <h5>Pattern Baselines</h5>
+                                    <div class="baseline-list" id="routerPatternBaselines"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Computer Agent Training -->
+                <div class="training-card" data-agent="computer">
+                    <div class="card-header">
+                        <h3>Computer Agent</h3>
+                        <span class="status-badge" id="computerStatus">Not Trained</span>
+                    </div>
+                    <div class="upload-area" id="computerUpload">
+                        <input type="file" id="computerFile" accept=".json,.csv,.jsonl" style="display: none;">
+                        <div class="upload-content">
+                            <svg class="upload-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="17 8 12 3 7 8"></polyline>
+                                <line x1="12" y1="3" x2="12" y2="15"></line>
+                            </svg>
+                            <p>Drag & drop training data or click to browse</p>
+                            <p class="upload-hint">Supports JSON, CSV, JSONL</p>
+                        </div>
+                    </div>
+                    <div class="training-progress" id="computerProgress" style="display: none;">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="computerProgressFill"></div>
+                        </div>
+                        <p class="progress-text" id="computerProgressText">Training...</p>
+                    </div>
+                    <div class="training-stats" id="computerStats" style="display: none;">
+                        <div class="stat-item">
+                            <span class="stat-label">Records:</span>
+                            <span class="stat-value" id="computerRecords">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Status:</span>
+                            <span class="stat-value" id="computerBaselineStatus">-</span>
+                        </div>
+                    </div>
+                    <div class="training-metrics" id="computerMetrics" style="display: none;">
+                        <button class="metrics-toggle" onclick="trainingManager.toggleMetrics('computer')">
+                            <span>View Detailed Metrics</span>
+                            <span class="toggle-icon">▼</span>
+                        </button>
+                        <div class="metrics-content" id="computerMetricsContent" style="display: none;">
+                            <div class="key-metrics">
+                                <h4>Key Metrics</h4>
+                                <div class="metrics-grid">
+                                    <div class="metric-card">
+                                        <span class="metric-label">Records Processed:</span>
+                                        <span class="metric-value" id="computerRecordsProcessed">0</span>
+                                    </div>
+                                    <div class="metric-card">
+                                        <span class="metric-label">Records Valid:</span>
+                                        <span class="metric-value" id="computerRecordsValid">0</span>
+                                    </div>
+                                    <div class="metric-card">
+                                        <span class="metric-label">Records Invalid:</span>
+                                        <span class="metric-value" id="computerRecordsInvalid">0</span>
+                                    </div>
+                                    <div class="metric-card">
+                                        <span class="metric-label">Baseline Ready:</span>
+                                        <span class="metric-value" id="computerBaselineReady">No</span>
+                                    </div>
+                                    <div class="metric-card">
+                                        <span class="metric-label">Training Mode:</span>
+                                        <span class="metric-value" id="computerTrainingMode">-</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="baseline-metrics">
+                                <h4>Baseline Metrics</h4>
+                                <div class="baseline-section">
+                                    <h5>Numeric Baselines</h5>
+                                    <div class="baseline-list" id="computerNumericBaselines"></div>
+                                </div>
+                                <div class="baseline-section">
+                                    <h5>Pattern Baselines</h5>
+                                    <div class="baseline-list" id="computerPatternBaselines"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Email Agent Training -->
+                <div class="training-card" data-agent="email">
+                    <div class="card-header">
+                        <h3>Email Agent</h3>
+                        <span class="status-badge" id="emailStatus">Not Trained</span>
+                    </div>
+                    <div class="upload-area" id="emailUpload">
+                        <input type="file" id="emailFile" accept=".json,.csv,.jsonl" style="display: none;">
+                        <div class="upload-content">
+                            <svg class="upload-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="17 8 12 3 7 8"></polyline>
+                                <line x1="12" y1="3" x2="12" y2="15"></line>
+                            </svg>
+                            <p>Drag & drop training data or click to browse</p>
+                            <p class="upload-hint">Supports JSON, CSV, JSONL</p>
+                        </div>
+                    </div>
+                    <div class="training-progress" id="emailProgress" style="display: none;">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="emailProgressFill"></div>
+                        </div>
+                        <p class="progress-text" id="emailProgressText">Training...</p>
+                    </div>
+                    <div class="training-stats" id="emailStats" style="display: none;">
+                        <div class="stat-item">
+                            <span class="stat-label">Records:</span>
+                            <span class="stat-value" id="emailRecords">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Status:</span>
+                            <span class="stat-value" id="emailBaselineStatus">-</span>
+                        </div>
+                    </div>
+                    <div class="training-metrics" id="emailMetrics" style="display: none;">
+                        <button class="metrics-toggle" onclick="trainingManager.toggleMetrics('email')">
+                            <span>View Detailed Metrics</span>
+                            <span class="toggle-icon">▼</span>
+                        </button>
+                        <div class="metrics-content" id="emailMetricsContent" style="display: none;">
+                            <div class="key-metrics">
+                                <h4>Key Metrics</h4>
+                                <div class="metrics-grid">
+                                    <div class="metric-card">
+                                        <span class="metric-label">Records Processed:</span>
+                                        <span class="metric-value" id="emailRecordsProcessed">0</span>
+                                    </div>
+                                    <div class="metric-card">
+                                        <span class="metric-label">Records Valid:</span>
+                                        <span class="metric-value" id="emailRecordsValid">0</span>
+                                    </div>
+                                    <div class="metric-card">
+                                        <span class="metric-label">Records Invalid:</span>
+                                        <span class="metric-value" id="emailRecordsInvalid">0</span>
+                                    </div>
+                                    <div class="metric-card">
+                                        <span class="metric-label">Baseline Ready:</span>
+                                        <span class="metric-value" id="emailBaselineReady">No</span>
+                                    </div>
+                                    <div class="metric-card">
+                                        <span class="metric-label">Training Mode:</span>
+                                        <span class="metric-value" id="emailTrainingMode">-</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="baseline-metrics">
+                                <h4>Baseline Metrics</h4>
+                                <div class="baseline-section">
+                                    <h5>Numeric Baselines</h5>
+                                    <div class="baseline-list" id="emailNumericBaselines"></div>
+                                </div>
+                                <div class="baseline-section">
+                                    <h5>Pattern Baselines</h5>
+                                    <div class="baseline-list" id="emailPatternBaselines"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Attack Testing Section -->
+        <section class="section test-section" id="testSection">
+            <div class="section-header">
+                <h2>Attack Testing</h2>
+                <p>Generate and test attack scenarios automatically</p>
+            </div>
+            <div class="test-container">
+                <button class="btn btn-primary btn-large" id="runAttackTestBtn">
+                    <span>Run Attack Test</span>
+                </button>
+                <div class="attack-info" id="attackInfo" style="display: none;">
+                    <div class="attack-info-card">
+                        <h4>Generated Attack</h4>
+                        <div class="attack-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Target Agent:</span>
+                                <span class="detail-value" id="attackAgentType">-</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Attack Type:</span>
+                                <span class="detail-value" id="attackType">-</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Description:</span>
+                                <span class="detail-value" id="attackDescription">-</span>
+                            </div>
+                            <div class="detail-item" id="techniqueItem" style="display: none;">
+                                <span class="detail-label">MITRE Technique:</span>
+                                <span class="detail-value" id="attackTechnique">-</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Agent Monitoring Section -->
+        <section class="section monitoring-section" id="monitoringSection">
+            <div class="section-header">
+                <h2>Agent Monitoring</h2>
+                <p>Real-time view of agent reactions, communications, and outputs</p>
+            </div>
+            <div class="agent-windows-container">
+                <!-- Router Agent Window -->
+                <div class="agent-window" data-agent="router">
+                    <div class="window-header">
+                        <h3>Router Agent</h3>
+                        <div class="agent-status">
+                            <span class="status-dot" id="routerAgentStatus"></span>
+                            <span id="routerAgentStatusText">Idle</span>
+                        </div>
+                    </div>
+                    <div class="window-content">
+                        <div class="warnings-panel">
+                            <h4>Proactive Warnings</h4>
+                            <div class="warnings-feed" id="routerWarnings"></div>
+                        </div>
+                        <div class="observations-panel">
+                            <h4>Observations</h4>
+                            <div class="observations-feed" id="routerObservations"></div>
+                        </div>
+                        <div class="mitre-panel">
+                            <h4>MITRE ATT&CK</h4>
+                            <div class="mitre-content" id="routerMitre"></div>
+                        </div>
+                        <div class="communications-panel">
+                            <h4>Communications</h4>
+                            <div class="communications-feed" id="routerCommunications"></div>
+                        </div>
+                        <div class="output-panel">
+                            <h4>Outputs</h4>
+                            <div class="output-feed" id="routerOutputs"></div>
+                        </div>
+                        <div class="metrics-panel">
+                            <h4>Metrics</h4>
+                            <div class="metrics-grid">
+                                <div class="metric-item">
+                                    <span class="metric-label">Anomaly Score:</span>
+                                    <span class="metric-value" id="routerAnomalyScore">0.00</span>
+                                </div>
+                                <div class="metric-item">
+                                    <span class="metric-label">Confidence:</span>
+                                    <span class="metric-value" id="routerConfidence">0.00</span>
+                                </div>
+                                <div class="metric-item">
+                                    <span class="metric-label">Observations:</span>
+                                    <span class="metric-value" id="routerObservationCount">0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Computer Agent Window -->
+                <div class="agent-window" data-agent="computer">
+                    <div class="window-header">
+                        <h3>Computer Agent</h3>
+                        <div class="agent-status">
+                            <span class="status-dot" id="computerAgentStatus"></span>
+                            <span id="computerAgentStatusText">Idle</span>
+                        </div>
+                    </div>
+                    <div class="window-content">
+                        <div class="warnings-panel">
+                            <h4>Proactive Warnings</h4>
+                            <div class="warnings-feed" id="computerWarnings"></div>
+                        </div>
+                        <div class="observations-panel">
+                            <h4>Observations</h4>
+                            <div class="observations-feed" id="computerObservations"></div>
+                        </div>
+                        <div class="mitre-panel">
+                            <h4>MITRE ATT&CK</h4>
+                            <div class="mitre-content" id="computerMitre"></div>
+                        </div>
+                        <div class="communications-panel">
+                            <h4>Communications</h4>
+                            <div class="communications-feed" id="computerCommunications"></div>
+                        </div>
+                        <div class="output-panel">
+                            <h4>Outputs</h4>
+                            <div class="output-feed" id="computerOutputs"></div>
+                        </div>
+                        <div class="metrics-panel">
+                            <h4>Metrics</h4>
+                            <div class="metrics-grid">
+                                <div class="metric-item">
+                                    <span class="metric-label">Anomaly Score:</span>
+                                    <span class="metric-value" id="computerAnomalyScore">0.00</span>
+                                </div>
+                                <div class="metric-item">
+                                    <span class="metric-label">Confidence:</span>
+                                    <span class="metric-value" id="computerConfidence">0.00</span>
+                                </div>
+                                <div class="metric-item">
+                                    <span class="metric-label">Observations:</span>
+                                    <span class="metric-value" id="computerObservationCount">0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Email Agent Window -->
+                <div class="agent-window" data-agent="email">
+                    <div class="window-header">
+                        <h3>Email Agent</h3>
+                        <div class="agent-status">
+                            <span class="status-dot" id="emailAgentStatus"></span>
+                            <span id="emailAgentStatusText">Idle</span>
+                        </div>
+                    </div>
+                    <div class="window-content">
+                        <div class="warnings-panel">
+                            <h4>Proactive Warnings</h4>
+                            <div class="warnings-feed" id="emailWarnings"></div>
+                        </div>
+                        <div class="observations-panel">
+                            <h4>Observations</h4>
+                            <div class="observations-feed" id="emailObservations"></div>
+                        </div>
+                        <div class="mitre-panel">
+                            <h4>MITRE ATT&CK</h4>
+                            <div class="mitre-content" id="emailMitre"></div>
+                        </div>
+                        <div class="communications-panel">
+                            <h4>Communications</h4>
+                            <div class="communications-feed" id="emailCommunications"></div>
+                        </div>
+                        <div class="output-panel">
+                            <h4>Outputs</h4>
+                            <div class="output-feed" id="emailOutputs"></div>
+                        </div>
+                        <div class="metrics-panel">
+                            <h4>Metrics</h4>
+                            <div class="metrics-grid">
+                                <div class="metric-item">
+                                    <span class="metric-label">Anomaly Score:</span>
+                                    <span class="metric-value" id="emailAnomalyScore">0.00</span>
+                                </div>
+                                <div class="metric-item">
+                                    <span class="metric-label">Confidence:</span>
+                                    <span class="metric-value" id="emailConfidence">0.00</span>
+                                </div>
+                                <div class="metric-item">
+                                    <span class="metric-label">Observations:</span>
+                                    <span class="metric-value" id="emailObservationCount">0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- System Control Section -->
+        <section class="section control-section">
+            <div class="section-header">
+                <h2>System Control</h2>
+                <p>Manage system state and operations</p>
+            </div>
+            <div class="control-panel">
+                <button class="btn btn-danger" id="stopSystemBtn">Stop System</button>
+                <button class="btn btn-warning" id="resetSystemBtn">Reset System</button>
+                <button class="btn btn-success" id="startSystemBtn">Start System</button>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section class="section results-section" id="resultsSection" style="display: none;">
+            <div class="section-header">
+                <h2>Test Results</h2>
+                <button class="btn btn-secondary" id="closeResultsBtn">Close</button>
+            </div>
+            <div class="results-container">
+                <div class="results-summary" id="resultsSummary"></div>
+                <div class="results-details" id="resultsDetails"></div>
+                <div class="results-actions">
+                    <button class="btn btn-primary" id="exportResultsBtn">Export Results</button>
+                    <button class="btn btn-secondary" id="generateReportBtn">Generate Report</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay" style="display: none;">
+        <div class="loading-spinner"></div>
+        <p id="loadingText">Loading...</p>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script src="scripts/api.js"></script>
+    <script src="scripts/websocket.js"></script>
+    <script src="scripts/training.js"></script>
+    <script src="scripts/test-manager.js"></script>
+    <script src="scripts/agent-monitor.js"></script>
+    <script src="scripts/results.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
+
+
+

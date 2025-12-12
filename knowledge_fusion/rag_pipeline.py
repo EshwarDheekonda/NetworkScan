@@ -11,7 +11,14 @@ Implements the RAG (Retrieval-Augmented Generation) pipeline that:
 from typing import List, Dict, Any, Optional, Callable
 import os
 import time
-from langchain.llms.base import BaseLLM
+try:
+    from langchain_core.language_models.base import BaseLanguageModel as BaseLLM
+except ImportError:
+    try:
+        from langchain.llms.base import BaseLLM
+    except ImportError:
+        # Fallback for older versions
+        BaseLLM = None
 from langchain_openai import ChatOpenAI
 try:
     from langchain_core.messages import HumanMessage, SystemMessage
