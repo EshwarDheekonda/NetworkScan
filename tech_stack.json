@@ -1,0 +1,11 @@
+{
+  "technologies": [
+    "Python", "Docker", "Neo4j", "FastAPI", "PostgreSQL",
+    "Windows", "Cisco routers", "Active Directory", "AWS"
+  ],
+  "security_concerns": [
+    "ransomware", "zero-day", "supply chain attack",
+    "credential theft", "lateral movement",
+    "cloud misconfiguration", "insider threat", "phishing"
+  ]
+}

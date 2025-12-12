@@ -1,0 +1,79 @@
+[
+  {
+    "title": "Amazon Uncovers Attacks Exploited Cisco ISE and Citrix NetScaler as Zero-Day Flaws",
+    "link": "https://thehackernews.com/2025/11/amazon-uncovers-attacks-exploited-cisco.html",
+    "published": "2025-11-12",
+    "summary": "Amazon's threat intelligence team on Wednesday disclosed that it observed an advanced threat actor exploiting two then-zero-day security flaws in Cisco Identity Service Engine (ISE) and Citrix NetScaler ADC products as part of attacks designed to deliver custom malware.\n\"This discovery highlights the trend of threat actors focusing on critical identity and network access control infrastructure \u2013",
+    "source": "https://feeds.feedburner.com/TheHackersNews",
+    "score": 0.5239999890327454,
+    "tags": [
+      "AWS",
+      "zero-day"
+    ],
+    "attack_vectors": [
+      "Exploiting zero-day security flaws in Cisco Identity Service Engine (ISE) and Citrix NetScaler ADC products",
+      "Delivering custom malware"
+    ],
+    "defensive_measures": [
+      "Regularly update and patch critical identity and network access control infrastructure",
+      "Implement a robust threat intelligence program to identify and respond to emerging threats",
+      "Use a web application firewall (WAF) to protect against exploitation of vulnerabilities",
+      "Implement a secure access control policy to limit access to sensitive resources"
+    ],
+    "mitre_tactics": [
+      "TA0005: Vulnerability Scanning",
+      "TA0006: Network Scanning",
+      "TA0008: Disguise Attacks & Evasion",
+      "TA0010: Exploit Public-Facing Application",
+      "TA0011: Exploit Public-Facing Application"
+    ],
+    "relevant_devices": [
+      "Network"
+    ]
+  },
+  {
+    "title": "Active Directory Under Siege: Why Critical Infrastructure Needs Stronger Security",
+    "link": "https://thehackernews.com/2025/11/active-directory-under-siege-why.html",
+    "published": "2025-11-12",
+    "summary": "Active Directory remains the authentication backbone for&nbsp;over 90% of Fortune 1000 companies. AD's importance has grown as companies adopt hybrid and cloud infrastructure, but so has its complexity. Every application, user, and device traces back to AD for authentication and authorization, making it the ultimate target. For attackers, it represents the holy grail: compromise Active",
+    "source": "https://feeds.feedburner.com/TheHackersNews",
+    "score": 0.47200000286102295,
+    "tags": [
+      "Active Directory"
+    ],
+    "attack_vectors": [
+      "Compromise Active Directory",
+      "Targeting AD for authentication and authorization"
+    ],
+    "defensive_measures": [
+      "Implement multi-factor authentication (MFA) for AD",
+      "Regularly update and patch AD infrastructure",
+      "Monitor AD logs for suspicious activity",
+      "Implement least privilege access controls",
+      "Use secure password policies and password hashing",
+      "Limit access to sensitive areas of AD",
+      "Use AD auditing and reporting tools"
+    ],
+    "mitre_tactics": [
+      "T1547: Sensitive Configuration or Credential Disposal",
+      "T1552: Steal or Use Valid Accounts",
+      "T1558: Steal or Use Valid Account",
+      "T1210: Exploitation of Remote Services"
+    ],
+    "relevant_devices": [
+      "endpoint",
+      "network"
+    ]
+  },
+  {
+    "title": "CISO's Expert Guide To AI Supply Chain Attacks",
+    "link": "https://thehackernews.com/2025/11/cisos-expert-guide-to-ai-supply-chain.html",
+    "published": "2025-11-11",
+    "summary": "AI-enabled supply chain attacks jumped 156% last year. Discover why traditional defenses are failing and what CISOs must do now to protect their organizations.\nDownload the full CISO&rsquo;s expert guide to AI Supply chain attacks here.&nbsp;\nTL;DR\n\nAI-enabled supply chain attacks are exploding in scale and sophistication - Malicious package uploads to open-source repositories jumped 156% in",
+    "source": "https://feeds.feedburner.com/TheHackersNews",
+    "score": 0.4390000104904175,
+    "tags": [
+      "supply chain attack"
+    ]
+  }
+]
